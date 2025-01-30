@@ -1,0 +1,40 @@
+name: Build and Upload Video
+
+on:
+  workflow_dispatch:  # 手動実行のトリガー
+    # ここに push や schedule を追加すれば自動でも実行可能
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          # or node-version: 18, etc.
+
+      - name: Install dependencies
+        run: |
+          cd node
+          npm ci
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Build Video
+        run: |
+          cd node
+          npm run build-video
+
+      - name: Upload video artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: generated-video
+          path: node/output/video.mp4

@@ -19,17 +19,22 @@ jobs:
         with:
           node-version: 18
 
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: node/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('node/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Install dependencies
-        run: |
-          cd node
-          npm ci
+        run: npm ci
+        working-directory: node
 
       - name: Lint
-        run: |
-          cd node
-          npm run lint
+        run: npm run lint
+        working-directory: node
 
       - name: Type Check
-        run: |
-          cd node
-          npm run type-check
+        run: npm run type-check
+        working-directory: node

@@ -7,7 +7,16 @@ try {
   const audioFile = "audio.wav";
   const outputFile = path.join("output", "video.mp4");
 
-  const cmd = `ffmpeg -framerate 30 -i ${framesPattern} -i ${audioFile} -c:v libx264 -c:a aac -pix_fmt yuv420p -shortest ${outputFile}`;
+  const cmd = `
+    ffmpeg -framerate 30 \
+    -i "${framesPattern}" \
+    -i "${audioFile}" \
+    -c:v libx264 \
+    -c:a aac \
+    -pix_fmt yuv420p \
+    -shortest \
+    "${outputFile}"
+  `.trim();
 
   console.log("Running FFmpeg command:", cmd);
   execSync(cmd, { stdio: "inherit" });

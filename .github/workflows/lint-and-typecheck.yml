@@ -10,6 +10,10 @@ jobs:
   lint-and-type-check:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: node
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
@@ -18,23 +22,19 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-
-      - name: Cache node modules
-        uses: actions/cache@v3
-        with:
-          path: node/node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('node/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          cache: 'npm'
+          cache-dependency-path: |
+            node/package-lock.json
 
       - name: Install dependencies
         run: npm ci
-        working-directory: node
 
       - name: Lint
         run: npm run lint
-        working-directory: node
 
       - name: Type Check
         run: npm run type-check
-        working-directory: node
+
+      # (任意) ユニットテストを実行する場合
+      # - name: Run Tests
+      #   run: npm test

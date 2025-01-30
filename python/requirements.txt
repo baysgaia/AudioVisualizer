@@ -1,0 +1,5 @@
+# python/requirements.txt
+demucs
+whisper
+librosa
+mido

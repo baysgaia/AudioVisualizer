@@ -1,0 +1,22 @@
+{
+  "name": "video-gen-node",
+  "version": "1.0.0",
+  "description": "Node.js project for video generation with FFmpeg",
+  "type": "module",
+  "main": "dist/index.js",
+  "license": "ISC",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src --max-warnings=0",
+    "type-check": "tsc src/*.ts --noEmit",
+    "test": "jest",
+    "build-video": "node scripts/build-video.cjs"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {}
+}

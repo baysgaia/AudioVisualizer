@@ -12,9 +12,9 @@ RUN apk add --no-cache \
   jpeg-dev \
   giflib-dev
 
-# 同じディレクトリ(node/)に package*.json があれば
-COPY package*.json ./
+# ルートの package*.json をコピー
+COPY ../package*.json ./
 RUN npm install
 
-COPY . .
+COPY ../ ./
 CMD ["npm", "start"]

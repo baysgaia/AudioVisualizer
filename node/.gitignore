@@ -3,3 +3,5 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
+# package-lock.jsonが含まれている場合は削除またはコメントアウト
+# package-lock.json

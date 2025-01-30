@@ -1,6 +1,7 @@
 {
   "name": "video-gen-node",
   "version": "1.0.0",
+  "type": "module",
   "description": "Node.js project for video generation with FFmpeg",
   "main": "dist/index.js",
   "license": "ISC",

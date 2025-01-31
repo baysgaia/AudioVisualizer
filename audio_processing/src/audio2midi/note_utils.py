@@ -1,34 +1,81 @@
-# python/src/audio2midi/note_utils.py
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# /audio_processing/src/audio2midi/note_utils.py
+"""
+音符とセグメントの処理に関するユーティリティモジュール
+"""
 
+from typing import List, Tuple, Dict, Any, Union, Optional
 import numpy as np
-from typing import List, Tuple
 
-def midi_notes_to_intervals(f0, voiced_flags, sr):
+def midi_notes_to_intervals(
+    midi_notes: np.ndarray,
+    voiced_flags: np.ndarray,
+    sr: int,
+    min_duration: float = 0.1
+) -> List[Tuple[float, float, float]]:
     """
-    Convert pitch information to MIDI intervals.
+    連続したMIDIノートをインターバル（開始時間、終了時間、ノート）に変換します。
 
     Args:
-        f0: Pitch array.
-        voiced_flags: Boolean array indicating voiced frames.
-        sr: Sample rate.
+        midi_notes: MIDIノート番号の配列
+        voiced_flags: 有声フレームを示すブール配列
+        sr: サンプリングレート
+        min_duration: 最小ノート長（秒）
 
     Returns:
-        List of (start_time, end_time, note).
+        List of (start_time, end_time, note)
     """
-    # 日本語コメント: ノート変換の例示的処理
     intervals = []
-    for freq, vf in zip(f0, voiced_flags):
-        if vf:
-            note = 69 + 12 * np.log2(freq / 440.0)  # A4=440Hz基準
-            intervals.append((note, freq))
-        else:
-            intervals.append((None, None))
+    current_note = None
+    start_frame = None
+    frame_length = 1.0 / sr
+
+    for i, (note, is_voiced) in enumerate(zip(midi_notes, voiced_flags)):
+        if is_voiced and not np.isnan(note):
+            if current_note is None:
+                current_note = note
+                start_frame = i
+            elif abs(note - current_note) >= 0.5:  # 半音以上の変化で新しいノート
+                duration = (i - start_frame) * frame_length
+                if duration >= min_duration:
+                    intervals.append((
+                        start_frame * frame_length,
+                        i * frame_length,
+                        round(current_note)
+                    ))
+                current_note = note
+                start_frame = i
+        elif current_note is not None:
+            duration = (i - start_frame) * frame_length
+            if duration >= min_duration:
+                intervals.append((
+                    start_frame * frame_length,
+                    i * frame_length,
+                    round(current_note)
+                ))
+            current_note = None
+            start_frame = None
+
+    # 最後のノートの処理
+    if current_note is not None:
+        duration = (len(midi_notes) - start_frame) * frame_length
+        if duration >= min_duration:
+            intervals.append((
+                start_frame * frame_length,
+                len(midi_notes) * frame_length,
+                round(current_note)
+            ))
+
     return intervals
 
-def match_segments_and_notes(segments, notes):
+def match_segments_and_notes(
+    segments: List[Dict[str, Union[float, str]]],
+    notes: List[Tuple[float, float, float]]
+) -> List[Dict[str, Any]]:
     """
-    Whisperのセグメント( start, end, text ) リスト と
-    ノート情報( start_sec, end_sec, note_val ) をマッチングさせる。
+    Whisperのセグメント(start, end, text)リストと
+    ノート情報(start_sec, end_sec, note_val)をマッチングさせます。
 
     Parameters
     ----------
@@ -53,7 +100,7 @@ def match_segments_and_notes(segments, notes):
     matched = []
     i, j = 0, 0
     segments_sorted = sorted(segments, key=lambda x: x["start"])
-    notes_sorted = sorted(notes, key=lambda x: x[0])  # (start_sec, end_sec, val)
+    notes_sorted = sorted(notes, key=lambda x: x[0])
 
     while i < len(segments_sorted) and j < len(notes_sorted):
         w = segments_sorted[i]

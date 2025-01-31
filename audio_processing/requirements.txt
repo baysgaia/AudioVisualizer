@@ -1,0 +1,107 @@
+# PyTorch (torch, torchvision, torchaudio) は Apple Silicon など
+# 特殊環境の場合、公式インストールガイドを参照して別途インストールしてください。
+# （pip install --index-url ... や conda インストールなど）
+
+########################################
+# Main Requirements
+########################################
+
+# オーディオ信号処理ライブラリ
+librosa
+
+# MIDI操作ライブラリ
+mido
+
+# F0推定ライブラリ (必要に応じて)
+crepe
+
+# ffmpeg-pythonを使用するためには、システムに ffmpeg がインストールされている必要があります。
+ffmpeg-python
+
+click
+
+-e .
+
+torch
+
+torchaudio
+
+whisper
+
+openai-whisper
+########################################
+# Optional / Platform-Specific Dependencies
+########################################
+
+# PyTorch (例: Apple Silicon対応版など)
+# GPUを用いて高速に処理したい場合は、適切なバージョンのtorchをインストールする
+# pip install torch>=2.0.0 --extra-index-url https://download.pytorch.org/whl/cpu
+# など、環境に応じてバイナリを指定してください
+########################################
+# (Either / Or) Whisper from GitHub
+########################################
+# GitHub版のWhisperを使う場合はこちらをインストールし、
+# 上記のPyPI版とは併用しないでください。
+# git+https://github.com/openai/whisper.git@<commit_hash>
+
+numpy
+pydub
+scipy
+soundfile
+matplotlib
+pandas
+
+# 他のライブラリが必要な場合は適宜追加してください
+
+# ---------------------------------------
+# 共通の依存関係 (Common Dependencies)
+# ---------------------------------------
+torch
+torchaudio
+demucs
+
+# ---------------------------------------
+# Whisper関連 (Whisper Dependencies)
+# ---------------------------------------
+# 日本語コメント：PyPI版とGitHub版のいずれかを使用
+# openai-whisper==20230315
+# git+https://github.com/openai/whisper.git
+
+# ---------------------------------------
+# Optional / Platform-Specific Dependencies
+# ---------------------------------------
+# 日本語コメント：以下は状況に応じて使用
+# pip install --upgrade torch --index-url https://download.pytorch.org/whl/cpu
+# pip install --upgrade torch --index-url https://download.pytorch.org/whl/cu117
+# (CPU / GPU / Apple Silicon向けに上記コマンド等を調整)
+
+# 日本語コメント: このファイルは単独インストール（社内ツール利用など）のために最低限の依存関係を定義しています。
+# プラットフォームやGPUの有無で各自インストールコマンドを切り替えてください。
+
+# Apple Silicon や GPU を利用する場合は以下の手順を参考にインストールしてください:
+# pip install --extra-index-url https://download.pytorch.org/whl/cu117 \
+#     torch==1.13.1+cu117 torchaudio==0.13.1+cu117 --force-reinstall
+# （上記は例：CUDA 11.7の場合）
+
+# CPU版のPyPI公式パッケージを利用する場合
+#ifndef GPU_OR_APPLE_SILICON
+# torch==1.13.1
+# torchaudio==0.13.1
+# demucs==3.0.0
+#endif
+
+# Whisper のPyPI版を使用する場合は以下を有効化 (重複回避のため、本ファイルではコメントアウト)
+# openai-whisper==20230314
+
+# Whisper のGitHub版を使用する場合は以下を有効化 (PyPI版とどちらか一つのみ)
+# git+https://github.com/openai/whisper.git@v20230314#egg=whisper
+
+# 音声処理
+basic-pitch
+
+# Apple Silicon (M1/M2) の場合
+# pip3 install --no-deps torch torchaudio
+# pip3 install --no-deps demucs
+
+# CUDA GPUを使用する場合
+# pip3 install torch torchaudio --index-url https://download.pytorch.org/whl/cu118

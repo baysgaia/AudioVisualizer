@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/audio2midi/__init__.py
+src/audio2midi/audio_to_text.py
+src/audio2midi/note_utils.py
+src/audio2midi/pitch_extraction.py
+src/audio_processing.egg-info/PKG-INFO
+src/audio_processing.egg-info/SOURCES.txt
+src/audio_processing.egg-info/dependency_links.txt
+src/audio_processing.egg-info/requires.txt
+src/audio_processing.egg-info/top_level.txt
+tests/test_pitch_extraction.py
+tests/test_whisper.py

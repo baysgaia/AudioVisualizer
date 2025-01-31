@@ -11,7 +11,8 @@
     "lint": "eslint src --max-warnings=0",
     "type-check": "tsc --noEmit",
     "test": "jest",
-    "build-video": "node scripts/build-video.cjs"
+    "build-video": "node scripts/build-video.cjs",
+    "start": "node src/index.js"
   },
   "devDependencies": {
     "eslint": "^8.31.0",

@@ -1,24 +1,28 @@
-# python/requirements.txt
+# ------------------------------------------------------------
+# PyTorch (torch, torchvision, torchaudio) は Apple Silicon など
+# 特殊環境の場合、公式インストールガイドを参照し別途インストール
+# （pip install --index-url ... や conda インストールなど）
+# ------------------------------------------------------------
 
-# -----------------------------------------------------
-# 基本的にはPyTorch (torch, torchvision, torchaudio) は
-# Apple Silicon (M1/M2系) の場合、公式インストールガイド
-# を参照して別途インストールする方が望ましいです。
-# -----------------------------------------------------
-
-# DEMUCS (音源分離などに使用)
-demucs>=4.0.0
-
-# Whisper (実際には PyPI 上では openai-whisper という名前)
+# Whisper (PyPI の安定版)
 openai-whisper>=2023.2.2
 
-# Librosa (オーディオ信号処理ライブラリ)
+# あるいは最新のGitHub版を使いたい場合は、下記をアンコメント
+# （ただし上記の openai-whisper>=2023.2.2 と同時指定しないこと）
+# git+https://github.com/openai/whisper.git
+
+# 音源分離 Demucs
+demucs>=4.0.0
+
+# オーディオ信号処理ライブラリ
 librosa>=0.10.0
 
 # MIDI操作ライブラリ
 mido>=1.2.10
 
-# 必要に応じて、F0推定などに使う CREPE
+# F0推定ライブラリ (必要に応じて)
 crepe>=0.0.15
-# 必要に応じて、ビデオ生成に使用する FFmpeg
-ffmpeg
+
+# ffmpeg-python (PythonからFFmpegコマンドを呼びやすくするラッパ)
+# ※ 実際にはシステムにインストールされた "ffmpeg" が必要。
+ffmpeg-python>=0.2.0

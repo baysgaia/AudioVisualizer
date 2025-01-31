@@ -1,0 +1,77 @@
+# 日本語コメント: このファイルはあくまで情報提供用で、
+# 実際のインストールは requirements.txt を使って行います。
+
+[build-system]
+# setuptoolsとwheelを使用してビルドします
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# プロジェクト情報
+name = "audio2midi"
+version = "0.1.0"
+description = "音声からMIDIへの変換ツール"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+requires-python = ">=3.8"
+
+# 基本的な依存関係はrequirements.txtで管理するため、以下はコメントアウト
+# [tool.poetry.dependencies]
+# python = "^3.8"
+# numpy = "^1.20.0"
+# scipy = "^1.7.0"
+# librosa = "^0.10.0"
+# soundfile = "^0.12.1"
+# torch = "^2.0.0"
+# torchaudio = "^2.0.0"
+# demucs = "^4.0.0"
+# openai-whisper = "^20231117"
+
+# 日本語コメント: Apple Silicon でメタルアクセラレーションを有効にしたい場合など、
+# 環境設定やバージョン固定は requirements.txt を参照して下さい。
+
+[tool.setuptools.packages.find]
+# ソースディレクトリ
+where = [ "src" ]
+include = [ "audio2midi*" ]
+
+################################################################################
+# PyTorch (torch, torchvision, torchaudio) は Apple Silicon など特殊環境の場合、
+# 公式インストールガイドに従って適切なバイナリを別途インストールしてください。
+# 例: pip install --extra-index-url https://download.pytorch.org/whl/cpu torch>=2.0.0
+################################################################################
+
+################################################################################
+# Whisper のインストール
+# 下記の GitHub 版を使う場合、上記の openai-whisper>=2023.2.2 は併用しないでください。
+#
+# [GitHub 版を使用する際の例 - コマンドから直接インストール]
+# pip install git+https://github.com/openai/whisper.git@<commit_hash>
+################################################################################
+
+################################################################################
+# ffmpeg-python を使用するにはシステムに ffmpeg がインストールされている必要があります。
+# (brew などでインストール)
+################################################################################
+
+[project.optional-dependencies]
+# 日本語コメント: ここに拡張用のオプショナル依存を記載可能です。
+dev = []
+test = []
+docs = []
+
+# メインの依存関係
+# torch = ">=2.0.0"  # 矛盾するためコメントアウト
+# demucs = ">=0.22.0"  # 矛盾するためコメントアウト
+
+# Whisperの選択肢
+# openai-whisper = {git = "https://github.com/openai/whisper.git"}  # PyPI版を使用するためコメントアウト
+
+# Apple SiliconまたはCPU/GPU用の指示
+# 日本語のコメントはそのまま
+
+# requirements.txtを参照
+# [build-system]
+# requires = ["poetry-core>=1.0.0"]
+# build-backend = "poetry.core.masonry.api"

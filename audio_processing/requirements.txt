@@ -15,6 +15,7 @@ mido
 
 # F0推定ライブラリ
 crepe>=0.0.12  # 安定版を指定
+tensorflow>=2.0.0  # CREPE用のTensorFlow依存
 
 # ffmpeg-pythonを使用するためには、システムに ffmpeg がインストールされている必要があります。
 ffmpeg-python

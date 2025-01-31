@@ -9,7 +9,22 @@ import json
 import csv
 from pathlib import Path
 from typing import List, Dict, Optional
+import unicodedata
 from midiutil import MIDIFile
+
+def convert_to_safe_text(text: str) -> str:
+    """
+    日本語テキストをMIDIで安全に使用できる形式に変換します。
+    
+    Args:
+        text: 変換する元のテキスト
+        
+    Returns:
+        str: ASCII範囲内の文字のみを含むテキスト
+    """
+    # ひらがな/カタカナをローマ字に変換（オプション）
+    # この例では単純にASCII文字以外を削除
+    return ''.join(ch for ch in text if ord(ch) < 128)
 
 def create_midi_with_lyrics(
     matched_segments: List[Dict],
@@ -66,12 +81,16 @@ def create_midi_with_lyrics(
             print(f"Warning: Invalid MIDI note number {note} at segment {i}")
             continue
         
+        # テキストをASCII範囲に変換
+        safe_text = convert_to_safe_text(text)
+        
         # ノートイベントを追加（ノートトラックに）
         try:
             midi.addNote(note_track, 0, int(note), start, duration, velocity)
             # テキストイベントを別トラックに追加（わずかな時間オフセットを付ける）
-            midi.addText(text_track, start + text_offset, text)
-            print(f"Added note {int(note)} at {start}s with duration {duration}s and text '{text}'")
+            if safe_text:  # 空文字列でない場合のみ追加
+                midi.addText(text_track, start + text_offset, safe_text)
+            print(f"Added note {int(note)} at {start}s with duration {duration}s and text '{safe_text}'")
         except Exception as e:
             print(f"Error adding note at segment {i}: {e}")
             print(f"Segment details: note={note}, start={start}, duration={duration}, text='{text}'")

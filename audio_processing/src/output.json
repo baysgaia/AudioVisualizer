@@ -1,0 +1,4710 @@
+{
+  "segments": [
+    {
+      "text_segment": {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "text": "ん",
+        "tokens": [
+          50364,
+          3225,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.9157187938690186,
+        "compression_ratio": 1.0714285714285714,
+        "no_speech_prob": 0.8107849359512329
+      },
+      "note_segment": {
+        "start": 1.27,
+        "end": 1.3900000000000001,
+        "note": 63
+      },
+      "overlap_start": 1.27,
+      "overlap_end": 1.3900000000000001
+    },
+    {
+      "text_segment": {
+        "id": 2,
+        "seek": 0,
+        "start": 8.0,
+        "end": 10.0,
+        "text": "ん",
+        "tokens": [
+          50764,
+          3225,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.9157187938690186,
+        "compression_ratio": 1.0714285714285714,
+        "no_speech_prob": 0.8107849359512329
+      },
+      "note_segment": {
+        "start": 8.23,
+        "end": 8.63,
+        "note": 58
+      },
+      "overlap_start": 8.23,
+      "overlap_end": 8.63
+    },
+    {
+      "text_segment": {
+        "id": 2,
+        "seek": 0,
+        "start": 8.0,
+        "end": 10.0,
+        "text": "ん",
+        "tokens": [
+          50764,
+          3225,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.9157187938690186,
+        "compression_ratio": 1.0714285714285714,
+        "no_speech_prob": 0.8107849359512329
+      },
+      "note_segment": {
+        "start": 9.18,
+        "end": 9.4,
+        "note": 60
+      },
+      "overlap_start": 9.18,
+      "overlap_end": 9.4
+    },
+    {
+      "text_segment": {
+        "id": 3,
+        "seek": 0,
+        "start": 12.0,
+        "end": 14.0,
+        "text": "ん",
+        "tokens": [
+          50964,
+          3225,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.9157187938690186,
+        "compression_ratio": 1.0714285714285714,
+        "no_speech_prob": 0.8107849359512329
+      },
+      "note_segment": {
+        "start": 12.52,
+        "end": 12.63,
+        "note": 77
+      },
+      "overlap_start": 12.52,
+      "overlap_end": 12.63
+    },
+    {
+      "text_segment": {
+        "id": 3,
+        "seek": 0,
+        "start": 12.0,
+        "end": 14.0,
+        "text": "ん",
+        "tokens": [
+          50964,
+          3225,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.9157187938690186,
+        "compression_ratio": 1.0714285714285714,
+        "no_speech_prob": 0.8107849359512329
+      },
+      "note_segment": {
+        "start": 12.83,
+        "end": 13.11,
+        "note": 78
+      },
+      "overlap_start": 12.83,
+      "overlap_end": 13.11
+    },
+    {
+      "text_segment": {
+        "id": 3,
+        "seek": 0,
+        "start": 12.0,
+        "end": 14.0,
+        "text": "ん",
+        "tokens": [
+          50964,
+          3225,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.9157187938690186,
+        "compression_ratio": 1.0714285714285714,
+        "no_speech_prob": 0.8107849359512329
+      },
+      "note_segment": {
+        "start": 13.46,
+        "end": 13.58,
+        "note": 77
+      },
+      "overlap_start": 13.46,
+      "overlap_end": 13.58
+    },
+    {
+      "text_segment": {
+        "id": 4,
+        "seek": 0,
+        "start": 15.0,
+        "end": 17.0,
+        "text": "ん",
+        "tokens": [
+          51114,
+          3225,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.9157187938690186,
+        "compression_ratio": 1.0714285714285714,
+        "no_speech_prob": 0.8107849359512329
+      },
+      "note_segment": {
+        "start": 14.99,
+        "end": 15.09,
+        "note": 68
+      },
+      "overlap_start": 15.0,
+      "overlap_end": 15.09
+    },
+    {
+      "text_segment": {
+        "id": 4,
+        "seek": 0,
+        "start": 15.0,
+        "end": 17.0,
+        "text": "ん",
+        "tokens": [
+          51114,
+          3225,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.9157187938690186,
+        "compression_ratio": 1.0714285714285714,
+        "no_speech_prob": 0.8107849359512329
+      },
+      "note_segment": {
+        "start": 15.94,
+        "end": 16.1,
+        "note": 60
+      },
+      "overlap_start": 15.94,
+      "overlap_end": 16.1
+    },
+    {
+      "text_segment": {
+        "id": 4,
+        "seek": 0,
+        "start": 15.0,
+        "end": 17.0,
+        "text": "ん",
+        "tokens": [
+          51114,
+          3225,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.9157187938690186,
+        "compression_ratio": 1.0714285714285714,
+        "no_speech_prob": 0.8107849359512329
+      },
+      "note_segment": {
+        "start": 16.85,
+        "end": 17.04,
+        "note": 70
+      },
+      "overlap_start": 16.85,
+      "overlap_end": 17.0
+    },
+    {
+      "text_segment": {
+        "id": 5,
+        "seek": 3000,
+        "start": 31.0,
+        "end": 35.0,
+        "text": "薄い木朝に",
+        "tokens": [
+          50414,
+          27746,
+          226,
+          1764,
+          41437,
+          46610,
+          4108,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 31.2,
+        "end": 31.330000000000002,
+        "note": 52
+      },
+      "overlap_start": 31.2,
+      "overlap_end": 31.330000000000002
+    },
+    {
+      "text_segment": {
+        "id": 5,
+        "seek": 3000,
+        "start": 31.0,
+        "end": 35.0,
+        "text": "薄い木朝に",
+        "tokens": [
+          50414,
+          27746,
+          226,
+          1764,
+          41437,
+          46610,
+          4108,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 31.41,
+        "end": 31.51,
+        "note": 58
+      },
+      "overlap_start": 31.41,
+      "overlap_end": 31.51
+    },
+    {
+      "text_segment": {
+        "id": 5,
+        "seek": 3000,
+        "start": 31.0,
+        "end": 35.0,
+        "text": "薄い木朝に",
+        "tokens": [
+          50414,
+          27746,
+          226,
+          1764,
+          41437,
+          46610,
+          4108,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 31.96,
+        "end": 32.17,
+        "note": 61
+      },
+      "overlap_start": 31.96,
+      "overlap_end": 32.17
+    },
+    {
+      "text_segment": {
+        "id": 5,
+        "seek": 3000,
+        "start": 31.0,
+        "end": 35.0,
+        "text": "薄い木朝に",
+        "tokens": [
+          50414,
+          27746,
+          226,
+          1764,
+          41437,
+          46610,
+          4108,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 32.2,
+        "end": 32.31,
+        "note": 60
+      },
+      "overlap_start": 32.2,
+      "overlap_end": 32.31
+    },
+    {
+      "text_segment": {
+        "id": 5,
+        "seek": 3000,
+        "start": 31.0,
+        "end": 35.0,
+        "text": "薄い木朝に",
+        "tokens": [
+          50414,
+          27746,
+          226,
+          1764,
+          41437,
+          46610,
+          4108,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 32.36,
+        "end": 32.54,
+        "note": 58
+      },
+      "overlap_start": 32.36,
+      "overlap_end": 32.54
+    },
+    {
+      "text_segment": {
+        "id": 5,
+        "seek": 3000,
+        "start": 31.0,
+        "end": 35.0,
+        "text": "薄い木朝に",
+        "tokens": [
+          50414,
+          27746,
+          226,
+          1764,
+          41437,
+          46610,
+          4108,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 32.63,
+        "end": 32.76,
+        "note": 59
+      },
+      "overlap_start": 32.63,
+      "overlap_end": 32.76
+    },
+    {
+      "text_segment": {
+        "id": 5,
+        "seek": 3000,
+        "start": 31.0,
+        "end": 35.0,
+        "text": "薄い木朝に",
+        "tokens": [
+          50414,
+          27746,
+          226,
+          1764,
+          41437,
+          46610,
+          4108,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 32.86,
+        "end": 33.27,
+        "note": 58
+      },
+      "overlap_start": 32.86,
+      "overlap_end": 33.27
+    },
+    {
+      "text_segment": {
+        "id": 5,
+        "seek": 3000,
+        "start": 31.0,
+        "end": 35.0,
+        "text": "薄い木朝に",
+        "tokens": [
+          50414,
+          27746,
+          226,
+          1764,
+          41437,
+          46610,
+          4108,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 33.39,
+        "end": 33.5,
+        "note": 58
+      },
+      "overlap_start": 33.39,
+      "overlap_end": 33.5
+    },
+    {
+      "text_segment": {
+        "id": 5,
+        "seek": 3000,
+        "start": 31.0,
+        "end": 35.0,
+        "text": "薄い木朝に",
+        "tokens": [
+          50414,
+          27746,
+          226,
+          1764,
+          41437,
+          46610,
+          4108,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 33.82,
+        "end": 34.03,
+        "note": 56
+      },
+      "overlap_start": 33.82,
+      "overlap_end": 34.03
+    },
+    {
+      "text_segment": {
+        "id": 6,
+        "seek": 3000,
+        "start": 35.0,
+        "end": 38.0,
+        "text": "着替えた女は",
+        "tokens": [
+          50614,
+          20708,
+          9531,
+          123,
+          6474,
+          3368,
+          17015,
+          3065,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 35.24,
+        "end": 35.37,
+        "note": 61
+      },
+      "overlap_start": 35.24,
+      "overlap_end": 35.37
+    },
+    {
+      "text_segment": {
+        "id": 6,
+        "seek": 3000,
+        "start": 35.0,
+        "end": 38.0,
+        "text": "着替えた女は",
+        "tokens": [
+          50614,
+          20708,
+          9531,
+          123,
+          6474,
+          3368,
+          17015,
+          3065,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 35.51,
+        "end": 35.82,
+        "note": 61
+      },
+      "overlap_start": 35.51,
+      "overlap_end": 35.82
+    },
+    {
+      "text_segment": {
+        "id": 6,
+        "seek": 3000,
+        "start": 35.0,
+        "end": 38.0,
+        "text": "着替えた女は",
+        "tokens": [
+          50614,
+          20708,
+          9531,
+          123,
+          6474,
+          3368,
+          17015,
+          3065,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 35.980000000000004,
+        "end": 36.18,
+        "note": 57
+      },
+      "overlap_start": 35.980000000000004,
+      "overlap_end": 36.18
+    },
+    {
+      "text_segment": {
+        "id": 6,
+        "seek": 3000,
+        "start": 35.0,
+        "end": 38.0,
+        "text": "着替えた女は",
+        "tokens": [
+          50614,
+          20708,
+          9531,
+          123,
+          6474,
+          3368,
+          17015,
+          3065,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 36.6,
+        "end": 36.86,
+        "note": 60
+      },
+      "overlap_start": 36.6,
+      "overlap_end": 36.86
+    },
+    {
+      "text_segment": {
+        "id": 6,
+        "seek": 3000,
+        "start": 35.0,
+        "end": 38.0,
+        "text": "着替えた女は",
+        "tokens": [
+          50614,
+          20708,
+          9531,
+          123,
+          6474,
+          3368,
+          17015,
+          3065,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 37.1,
+        "end": 37.21,
+        "note": 60
+      },
+      "overlap_start": 37.1,
+      "overlap_end": 37.21
+    },
+    {
+      "text_segment": {
+        "id": 7,
+        "seek": 3000,
+        "start": 39.0,
+        "end": 42.0,
+        "text": "首入れたラインが",
+        "tokens": [
+          50814,
+          25444,
+          14028,
+          35478,
+          40230,
+          4824,
+          5142,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 38.89,
+        "end": 39.02,
+        "note": 51
+      },
+      "overlap_start": 39.0,
+      "overlap_end": 39.02
+    },
+    {
+      "text_segment": {
+        "id": 7,
+        "seek": 3000,
+        "start": 39.0,
+        "end": 42.0,
+        "text": "首入れたラインが",
+        "tokens": [
+          50814,
+          25444,
+          14028,
+          35478,
+          40230,
+          4824,
+          5142,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 39.31,
+        "end": 39.43,
+        "note": 54
+      },
+      "overlap_start": 39.31,
+      "overlap_end": 39.43
+    },
+    {
+      "text_segment": {
+        "id": 7,
+        "seek": 3000,
+        "start": 39.0,
+        "end": 42.0,
+        "text": "首入れたラインが",
+        "tokens": [
+          50814,
+          25444,
+          14028,
+          35478,
+          40230,
+          4824,
+          5142,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 39.43,
+        "end": 39.7,
+        "note": 53
+      },
+      "overlap_start": 39.43,
+      "overlap_end": 39.7
+    },
+    {
+      "text_segment": {
+        "id": 7,
+        "seek": 3000,
+        "start": 39.0,
+        "end": 42.0,
+        "text": "首入れたラインが",
+        "tokens": [
+          50814,
+          25444,
+          14028,
+          35478,
+          40230,
+          4824,
+          5142,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 39.800000000000004,
+        "end": 39.97,
+        "note": 53
+      },
+      "overlap_start": 39.800000000000004,
+      "overlap_end": 39.97
+    },
+    {
+      "text_segment": {
+        "id": 7,
+        "seek": 3000,
+        "start": 39.0,
+        "end": 42.0,
+        "text": "首入れたラインが",
+        "tokens": [
+          50814,
+          25444,
+          14028,
+          35478,
+          40230,
+          4824,
+          5142,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 40.09,
+        "end": 40.230000000000004,
+        "note": 53
+      },
+      "overlap_start": 40.09,
+      "overlap_end": 40.230000000000004
+    },
+    {
+      "text_segment": {
+        "id": 7,
+        "seek": 3000,
+        "start": 39.0,
+        "end": 42.0,
+        "text": "首入れたラインが",
+        "tokens": [
+          50814,
+          25444,
+          14028,
+          35478,
+          40230,
+          4824,
+          5142,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 40.27,
+        "end": 40.45,
+        "note": 56
+      },
+      "overlap_start": 40.27,
+      "overlap_end": 40.45
+    },
+    {
+      "text_segment": {
+        "id": 7,
+        "seek": 3000,
+        "start": 39.0,
+        "end": 42.0,
+        "text": "首入れたラインが",
+        "tokens": [
+          50814,
+          25444,
+          14028,
+          35478,
+          40230,
+          4824,
+          5142,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 40.45,
+        "end": 40.58,
+        "note": 55
+      },
+      "overlap_start": 40.45,
+      "overlap_end": 40.58
+    },
+    {
+      "text_segment": {
+        "id": 7,
+        "seek": 3000,
+        "start": 39.0,
+        "end": 42.0,
+        "text": "首入れたラインが",
+        "tokens": [
+          50814,
+          25444,
+          14028,
+          35478,
+          40230,
+          4824,
+          5142,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 40.62,
+        "end": 41.1,
+        "note": 53
+      },
+      "overlap_start": 40.62,
+      "overlap_end": 41.1
+    },
+    {
+      "text_segment": {
+        "id": 8,
+        "seek": 3000,
+        "start": 43.0,
+        "end": 46.0,
+        "text": "なお悲しいね",
+        "tokens": [
+          51014,
+          3203,
+          6117,
+          14696,
+          110,
+          17121,
+          5555,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 43.2,
+        "end": 43.35,
+        "note": 51
+      },
+      "overlap_start": 43.2,
+      "overlap_end": 43.35
+    },
+    {
+      "text_segment": {
+        "id": 8,
+        "seek": 3000,
+        "start": 43.0,
+        "end": 46.0,
+        "text": "なお悲しいね",
+        "tokens": [
+          51014,
+          3203,
+          6117,
+          14696,
+          110,
+          17121,
+          5555,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 43.67,
+        "end": 43.77,
+        "note": 49
+      },
+      "overlap_start": 43.67,
+      "overlap_end": 43.77
+    },
+    {
+      "text_segment": {
+        "id": 8,
+        "seek": 3000,
+        "start": 43.0,
+        "end": 46.0,
+        "text": "なお悲しいね",
+        "tokens": [
+          51014,
+          3203,
+          6117,
+          14696,
+          110,
+          17121,
+          5555,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 44.62,
+        "end": 44.81,
+        "note": 53
+      },
+      "overlap_start": 44.62,
+      "overlap_end": 44.81
+    },
+    {
+      "text_segment": {
+        "id": 8,
+        "seek": 3000,
+        "start": 43.0,
+        "end": 46.0,
+        "text": "なお悲しいね",
+        "tokens": [
+          51014,
+          3203,
+          6117,
+          14696,
+          110,
+          17121,
+          5555,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 45.06,
+        "end": 45.29,
+        "note": 58
+      },
+      "overlap_start": 45.06,
+      "overlap_end": 45.29
+    },
+    {
+      "text_segment": {
+        "id": 8,
+        "seek": 3000,
+        "start": 43.0,
+        "end": 46.0,
+        "text": "なお悲しいね",
+        "tokens": [
+          51014,
+          3203,
+          6117,
+          14696,
+          110,
+          17121,
+          5555,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 45.52,
+        "end": 45.62,
+        "note": 57
+      },
+      "overlap_start": 45.52,
+      "overlap_end": 45.62
+    },
+    {
+      "text_segment": {
+        "id": 9,
+        "seek": 3000,
+        "start": 47.0,
+        "end": 50.0,
+        "text": "ファッション雑誌を",
+        "tokens": [
+          51214,
+          17320,
+          36151,
+          8276,
+          43891,
+          4824,
+          6306,
+          239,
+          3549,
+          234,
+          5998,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 46.82,
+        "end": 47.01,
+        "note": 58
+      },
+      "overlap_start": 47.0,
+      "overlap_end": 47.01
+    },
+    {
+      "text_segment": {
+        "id": 9,
+        "seek": 3000,
+        "start": 47.0,
+        "end": 50.0,
+        "text": "ファッション雑誌を",
+        "tokens": [
+          51214,
+          17320,
+          36151,
+          8276,
+          43891,
+          4824,
+          6306,
+          239,
+          3549,
+          234,
+          5998,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 47.09,
+        "end": 47.21,
+        "note": 60
+      },
+      "overlap_start": 47.09,
+      "overlap_end": 47.21
+    },
+    {
+      "text_segment": {
+        "id": 9,
+        "seek": 3000,
+        "start": 47.0,
+        "end": 50.0,
+        "text": "ファッション雑誌を",
+        "tokens": [
+          51214,
+          17320,
+          36151,
+          8276,
+          43891,
+          4824,
+          6306,
+          239,
+          3549,
+          234,
+          5998,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 47.5,
+        "end": 47.6,
+        "note": 60
+      },
+      "overlap_start": 47.5,
+      "overlap_end": 47.6
+    },
+    {
+      "text_segment": {
+        "id": 9,
+        "seek": 3000,
+        "start": 47.0,
+        "end": 50.0,
+        "text": "ファッション雑誌を",
+        "tokens": [
+          51214,
+          17320,
+          36151,
+          8276,
+          43891,
+          4824,
+          6306,
+          239,
+          3549,
+          234,
+          5998,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 47.78,
+        "end": 47.97,
+        "note": 59
+      },
+      "overlap_start": 47.78,
+      "overlap_end": 47.97
+    },
+    {
+      "text_segment": {
+        "id": 9,
+        "seek": 3000,
+        "start": 47.0,
+        "end": 50.0,
+        "text": "ファッション雑誌を",
+        "tokens": [
+          51214,
+          17320,
+          36151,
+          8276,
+          43891,
+          4824,
+          6306,
+          239,
+          3549,
+          234,
+          5998,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 47.99,
+        "end": 48.160000000000004,
+        "note": 60
+      },
+      "overlap_start": 47.99,
+      "overlap_end": 48.160000000000004
+    },
+    {
+      "text_segment": {
+        "id": 9,
+        "seek": 3000,
+        "start": 47.0,
+        "end": 50.0,
+        "text": "ファッション雑誌を",
+        "tokens": [
+          51214,
+          17320,
+          36151,
+          8276,
+          43891,
+          4824,
+          6306,
+          239,
+          3549,
+          234,
+          5998,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 48.35,
+        "end": 48.620000000000005,
+        "note": 58
+      },
+      "overlap_start": 48.35,
+      "overlap_end": 48.620000000000005
+    },
+    {
+      "text_segment": {
+        "id": 9,
+        "seek": 3000,
+        "start": 47.0,
+        "end": 50.0,
+        "text": "ファッション雑誌を",
+        "tokens": [
+          51214,
+          17320,
+          36151,
+          8276,
+          43891,
+          4824,
+          6306,
+          239,
+          3549,
+          234,
+          5998,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 48.83,
+        "end": 48.96,
+        "note": 58
+      },
+      "overlap_start": 48.83,
+      "overlap_end": 48.96
+    },
+    {
+      "text_segment": {
+        "id": 9,
+        "seek": 3000,
+        "start": 47.0,
+        "end": 50.0,
+        "text": "ファッション雑誌を",
+        "tokens": [
+          51214,
+          17320,
+          36151,
+          8276,
+          43891,
+          4824,
+          6306,
+          239,
+          3549,
+          234,
+          5998,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 49.01,
+        "end": 49.24,
+        "note": 57
+      },
+      "overlap_start": 49.01,
+      "overlap_end": 49.24
+    },
+    {
+      "text_segment": {
+        "id": 9,
+        "seek": 3000,
+        "start": 47.0,
+        "end": 50.0,
+        "text": "ファッション雑誌を",
+        "tokens": [
+          51214,
+          17320,
+          36151,
+          8276,
+          43891,
+          4824,
+          6306,
+          239,
+          3549,
+          234,
+          5998,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 49.24,
+        "end": 49.410000000000004,
+        "note": 57
+      },
+      "overlap_start": 49.24,
+      "overlap_end": 49.410000000000004
+    },
+    {
+      "text_segment": {
+        "id": 10,
+        "seek": 3000,
+        "start": 51.0,
+        "end": 54.0,
+        "text": "膝から落として",
+        "tokens": [
+          51414,
+          39708,
+          251,
+          11046,
+          30848,
+          3193,
+          8822,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 50.72,
+        "end": 51.32,
+        "note": 61
+      },
+      "overlap_start": 51.0,
+      "overlap_end": 51.32
+    },
+    {
+      "text_segment": {
+        "id": 10,
+        "seek": 3000,
+        "start": 51.0,
+        "end": 54.0,
+        "text": "膝から落として",
+        "tokens": [
+          51414,
+          39708,
+          251,
+          11046,
+          30848,
+          3193,
+          8822,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 51.4,
+        "end": 51.5,
+        "note": 58
+      },
+      "overlap_start": 51.4,
+      "overlap_end": 51.5
+    },
+    {
+      "text_segment": {
+        "id": 10,
+        "seek": 3000,
+        "start": 51.0,
+        "end": 54.0,
+        "text": "膝から落として",
+        "tokens": [
+          51414,
+          39708,
+          251,
+          11046,
+          30848,
+          3193,
+          8822,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 51.72,
+        "end": 51.83,
+        "note": 61
+      },
+      "overlap_start": 51.72,
+      "overlap_end": 51.83
+    },
+    {
+      "text_segment": {
+        "id": 10,
+        "seek": 3000,
+        "start": 51.0,
+        "end": 54.0,
+        "text": "膝から落として",
+        "tokens": [
+          51414,
+          39708,
+          251,
+          11046,
+          30848,
+          3193,
+          8822,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 52.02,
+        "end": 52.34,
+        "note": 60
+      },
+      "overlap_start": 52.02,
+      "overlap_end": 52.34
+    },
+    {
+      "text_segment": {
+        "id": 10,
+        "seek": 3000,
+        "start": 51.0,
+        "end": 54.0,
+        "text": "膝から落として",
+        "tokens": [
+          51414,
+          39708,
+          251,
+          11046,
+          30848,
+          3193,
+          8822,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 52.34,
+        "end": 52.550000000000004,
+        "note": 59
+      },
+      "overlap_start": 52.34,
+      "overlap_end": 52.550000000000004
+    },
+    {
+      "text_segment": {
+        "id": 10,
+        "seek": 3000,
+        "start": 51.0,
+        "end": 54.0,
+        "text": "膝から落として",
+        "tokens": [
+          51414,
+          39708,
+          251,
+          11046,
+          30848,
+          3193,
+          8822,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 52.69,
+        "end": 52.81,
+        "note": 60
+      },
+      "overlap_start": 52.69,
+      "overlap_end": 52.81
+    },
+    {
+      "text_segment": {
+        "id": 10,
+        "seek": 3000,
+        "start": 51.0,
+        "end": 54.0,
+        "text": "膝から落として",
+        "tokens": [
+          51414,
+          39708,
+          251,
+          11046,
+          30848,
+          3193,
+          8822,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 53.120000000000005,
+        "end": 53.300000000000004,
+        "note": 58
+      },
+      "overlap_start": 53.120000000000005,
+      "overlap_end": 53.300000000000004
+    },
+    {
+      "text_segment": {
+        "id": 11,
+        "seek": 3000,
+        "start": 55.0,
+        "end": 58.0,
+        "text": "駆け寄る心が",
+        "tokens": [
+          51614,
+          165,
+          100,
+          228,
+          7625,
+          4510,
+          226,
+          4895,
+          7945,
+          5142,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 56.21,
+        "end": 56.33,
+        "note": 55
+      },
+      "overlap_start": 56.21,
+      "overlap_end": 56.33
+    },
+    {
+      "text_segment": {
+        "id": 11,
+        "seek": 3000,
+        "start": 55.0,
+        "end": 58.0,
+        "text": "駆け寄る心が",
+        "tokens": [
+          51614,
+          165,
+          100,
+          228,
+          7625,
+          4510,
+          226,
+          4895,
+          7945,
+          5142,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 56.33,
+        "end": 56.46,
+        "note": 54
+      },
+      "overlap_start": 56.33,
+      "overlap_end": 56.46
+    },
+    {
+      "text_segment": {
+        "id": 11,
+        "seek": 3000,
+        "start": 55.0,
+        "end": 58.0,
+        "text": "駆け寄る心が",
+        "tokens": [
+          51614,
+          165,
+          100,
+          228,
+          7625,
+          4510,
+          226,
+          4895,
+          7945,
+          5142,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 57.050000000000004,
+        "end": 57.2,
+        "note": 58
+      },
+      "overlap_start": 57.050000000000004,
+      "overlap_end": 57.2
+    },
+    {
+      "text_segment": {
+        "id": 11,
+        "seek": 3000,
+        "start": 55.0,
+        "end": 58.0,
+        "text": "駆け寄る心が",
+        "tokens": [
+          51614,
+          165,
+          100,
+          228,
+          7625,
+          4510,
+          226,
+          4895,
+          7945,
+          5142,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 57.230000000000004,
+        "end": 57.410000000000004,
+        "note": 58
+      },
+      "overlap_start": 57.230000000000004,
+      "overlap_end": 57.410000000000004
+    },
+    {
+      "text_segment": {
+        "id": 11,
+        "seek": 3000,
+        "start": 55.0,
+        "end": 58.0,
+        "text": "駆け寄る心が",
+        "tokens": [
+          51614,
+          165,
+          100,
+          228,
+          7625,
+          4510,
+          226,
+          4895,
+          7945,
+          5142,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 57.44,
+        "end": 57.620000000000005,
+        "note": 58
+      },
+      "overlap_start": 57.44,
+      "overlap_end": 57.620000000000005
+    },
+    {
+      "text_segment": {
+        "id": 11,
+        "seek": 3000,
+        "start": 55.0,
+        "end": 58.0,
+        "text": "駆け寄る心が",
+        "tokens": [
+          51614,
+          165,
+          100,
+          228,
+          7625,
+          4510,
+          226,
+          4895,
+          7945,
+          5142,
+          51764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1811825434366862,
+        "compression_ratio": 1.1015625,
+        "no_speech_prob": 0.008775678463280201
+      },
+      "note_segment": {
+        "start": 57.68,
+        "end": 57.800000000000004,
+        "note": 56
+      },
+      "overlap_start": 57.68,
+      "overlap_end": 57.800000000000004
+    },
+    {
+      "text_segment": {
+        "id": 12,
+        "seek": 5800,
+        "start": 58.0,
+        "end": 61.0,
+        "text": "たまらないほど",
+        "tokens": [
+          50364,
+          3368,
+          2889,
+          5154,
+          9311,
+          29050,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 58.04,
+        "end": 58.15,
+        "note": 59
+      },
+      "overlap_start": 58.04,
+      "overlap_end": 58.15
+    },
+    {
+      "text_segment": {
+        "id": 12,
+        "seek": 5800,
+        "start": 58.0,
+        "end": 61.0,
+        "text": "たまらないほど",
+        "tokens": [
+          50364,
+          3368,
+          2889,
+          5154,
+          9311,
+          29050,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 58.19,
+        "end": 58.32,
+        "note": 60
+      },
+      "overlap_start": 58.19,
+      "overlap_end": 58.32
+    },
+    {
+      "text_segment": {
+        "id": 12,
+        "seek": 5800,
+        "start": 58.0,
+        "end": 61.0,
+        "text": "たまらないほど",
+        "tokens": [
+          50364,
+          3368,
+          2889,
+          5154,
+          9311,
+          29050,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 58.44,
+        "end": 58.54,
+        "note": 57
+      },
+      "overlap_start": 58.44,
+      "overlap_end": 58.54
+    },
+    {
+      "text_segment": {
+        "id": 12,
+        "seek": 5800,
+        "start": 58.0,
+        "end": 61.0,
+        "text": "たまらないほど",
+        "tokens": [
+          50364,
+          3368,
+          2889,
+          5154,
+          9311,
+          29050,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 59.1,
+        "end": 59.2,
+        "note": 54
+      },
+      "overlap_start": 59.1,
+      "overlap_end": 59.2
+    },
+    {
+      "text_segment": {
+        "id": 12,
+        "seek": 5800,
+        "start": 58.0,
+        "end": 61.0,
+        "text": "たまらないほど",
+        "tokens": [
+          50364,
+          3368,
+          2889,
+          5154,
+          9311,
+          29050,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 60.07,
+        "end": 60.19,
+        "note": 63
+      },
+      "overlap_start": 60.07,
+      "overlap_end": 60.19
+    },
+    {
+      "text_segment": {
+        "id": 12,
+        "seek": 5800,
+        "start": 58.0,
+        "end": 61.0,
+        "text": "たまらないほど",
+        "tokens": [
+          50364,
+          3368,
+          2889,
+          5154,
+          9311,
+          29050,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 60.32,
+        "end": 60.44,
+        "note": 63
+      },
+      "overlap_start": 60.32,
+      "overlap_end": 60.44
+    },
+    {
+      "text_segment": {
+        "id": 12,
+        "seek": 5800,
+        "start": 58.0,
+        "end": 61.0,
+        "text": "たまらないほど",
+        "tokens": [
+          50364,
+          3368,
+          2889,
+          5154,
+          9311,
+          29050,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 60.550000000000004,
+        "end": 60.79,
+        "note": 61
+      },
+      "overlap_start": 60.550000000000004,
+      "overlap_end": 60.79
+    },
+    {
+      "text_segment": {
+        "id": 13,
+        "seek": 5800,
+        "start": 62.0,
+        "end": 65.0,
+        "text": "うっふっふ",
+        "tokens": [
+          50564,
+          2646,
+          2970,
+          18100,
+          2970,
+          18100,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 62.35,
+        "end": 62.58,
+        "note": 61
+      },
+      "overlap_start": 62.35,
+      "overlap_end": 62.58
+    },
+    {
+      "text_segment": {
+        "id": 13,
+        "seek": 5800,
+        "start": 62.0,
+        "end": 65.0,
+        "text": "うっふっふ",
+        "tokens": [
+          50564,
+          2646,
+          2970,
+          18100,
+          2970,
+          18100,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 62.84,
+        "end": 62.96,
+        "note": 61
+      },
+      "overlap_start": 62.84,
+      "overlap_end": 62.96
+    },
+    {
+      "text_segment": {
+        "id": 13,
+        "seek": 5800,
+        "start": 62.0,
+        "end": 65.0,
+        "text": "うっふっふ",
+        "tokens": [
+          50564,
+          2646,
+          2970,
+          18100,
+          2970,
+          18100,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 63.33,
+        "end": 63.46,
+        "note": 57
+      },
+      "overlap_start": 63.33,
+      "overlap_end": 63.46
+    },
+    {
+      "text_segment": {
+        "id": 13,
+        "seek": 5800,
+        "start": 62.0,
+        "end": 65.0,
+        "text": "うっふっふ",
+        "tokens": [
+          50564,
+          2646,
+          2970,
+          18100,
+          2970,
+          18100,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 63.76,
+        "end": 63.93,
+        "note": 62
+      },
+      "overlap_start": 63.76,
+      "overlap_end": 63.93
+    },
+    {
+      "text_segment": {
+        "id": 13,
+        "seek": 5800,
+        "start": 62.0,
+        "end": 65.0,
+        "text": "うっふっふ",
+        "tokens": [
+          50564,
+          2646,
+          2970,
+          18100,
+          2970,
+          18100,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 64.29,
+        "end": 64.4,
+        "note": 61
+      },
+      "overlap_start": 64.29,
+      "overlap_end": 64.4
+    },
+    {
+      "text_segment": {
+        "id": 13,
+        "seek": 5800,
+        "start": 62.0,
+        "end": 65.0,
+        "text": "うっふっふ",
+        "tokens": [
+          50564,
+          2646,
+          2970,
+          18100,
+          2970,
+          18100,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 64.78,
+        "end": 65.06,
+        "note": 63
+      },
+      "overlap_start": 64.78,
+      "overlap_end": 65.0
+    },
+    {
+      "text_segment": {
+        "id": 14,
+        "seek": 5800,
+        "start": 65.0,
+        "end": 68.0,
+        "text": "色っぽいぜ",
+        "tokens": [
+          50714,
+          17673,
+          32918,
+          121,
+          1764,
+          20258,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 64.78,
+        "end": 65.06,
+        "note": 63
+      },
+      "overlap_start": 65.0,
+      "overlap_end": 65.06
+    },
+    {
+      "text_segment": {
+        "id": 14,
+        "seek": 5800,
+        "start": 65.0,
+        "end": 68.0,
+        "text": "色っぽいぜ",
+        "tokens": [
+          50714,
+          17673,
+          32918,
+          121,
+          1764,
+          20258,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 65.1,
+        "end": 65.33,
+        "note": 61
+      },
+      "overlap_start": 65.1,
+      "overlap_end": 65.33
+    },
+    {
+      "text_segment": {
+        "id": 14,
+        "seek": 5800,
+        "start": 65.0,
+        "end": 68.0,
+        "text": "色っぽいぜ",
+        "tokens": [
+          50714,
+          17673,
+          32918,
+          121,
+          1764,
+          20258,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 65.39,
+        "end": 65.52,
+        "note": 63
+      },
+      "overlap_start": 65.39,
+      "overlap_end": 65.52
+    },
+    {
+      "text_segment": {
+        "id": 14,
+        "seek": 5800,
+        "start": 65.0,
+        "end": 68.0,
+        "text": "色っぽいぜ",
+        "tokens": [
+          50714,
+          17673,
+          32918,
+          121,
+          1764,
+          20258,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 65.63,
+        "end": 65.91,
+        "note": 67
+      },
+      "overlap_start": 65.63,
+      "overlap_end": 65.91
+    },
+    {
+      "text_segment": {
+        "id": 14,
+        "seek": 5800,
+        "start": 65.0,
+        "end": 68.0,
+        "text": "色っぽいぜ",
+        "tokens": [
+          50714,
+          17673,
+          32918,
+          121,
+          1764,
+          20258,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 66.13,
+        "end": 66.32000000000001,
+        "note": 64
+      },
+      "overlap_start": 66.13,
+      "overlap_end": 66.32000000000001
+    },
+    {
+      "text_segment": {
+        "id": 14,
+        "seek": 5800,
+        "start": 65.0,
+        "end": 68.0,
+        "text": "色っぽいぜ",
+        "tokens": [
+          50714,
+          17673,
+          32918,
+          121,
+          1764,
+          20258,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 66.32000000000001,
+        "end": 66.77,
+        "note": 63
+      },
+      "overlap_start": 66.32000000000001,
+      "overlap_end": 66.77
+    },
+    {
+      "text_segment": {
+        "id": 15,
+        "seek": 5800,
+        "start": 68.0,
+        "end": 71.0,
+        "text": "男と女の長い道のり",
+        "tokens": [
+          50864,
+          25243,
+          3193,
+          17015,
+          2972,
+          15353,
+          1764,
+          6025,
+          2972,
+          5095,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 68.07000000000001,
+        "end": 68.18,
+        "note": 54
+      },
+      "overlap_start": 68.07000000000001,
+      "overlap_end": 68.18
+    },
+    {
+      "text_segment": {
+        "id": 15,
+        "seek": 5800,
+        "start": 68.0,
+        "end": 71.0,
+        "text": "男と女の長い道のり",
+        "tokens": [
+          50864,
+          25243,
+          3193,
+          17015,
+          2972,
+          15353,
+          1764,
+          6025,
+          2972,
+          5095,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 68.75,
+        "end": 68.86,
+        "note": 55
+      },
+      "overlap_start": 68.75,
+      "overlap_end": 68.86
+    },
+    {
+      "text_segment": {
+        "id": 15,
+        "seek": 5800,
+        "start": 68.0,
+        "end": 71.0,
+        "text": "男と女の長い道のり",
+        "tokens": [
+          50864,
+          25243,
+          3193,
+          17015,
+          2972,
+          15353,
+          1764,
+          6025,
+          2972,
+          5095,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 69.98,
+        "end": 70.09,
+        "note": 64
+      },
+      "overlap_start": 69.98,
+      "overlap_end": 70.09
+    },
+    {
+      "text_segment": {
+        "id": 15,
+        "seek": 5800,
+        "start": 68.0,
+        "end": 71.0,
+        "text": "男と女の長い道のり",
+        "tokens": [
+          50864,
+          25243,
+          3193,
+          17015,
+          2972,
+          15353,
+          1764,
+          6025,
+          2972,
+          5095,
+          51014
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 70.47,
+        "end": 70.84,
+        "note": 61
+      },
+      "overlap_start": 70.47,
+      "overlap_end": 70.84
+    },
+    {
+      "text_segment": {
+        "id": 16,
+        "seek": 5800,
+        "start": 72.0,
+        "end": 75.0,
+        "text": "もう俺は迷わない",
+        "tokens": [
+          51064,
+          16324,
+          37334,
+          3065,
+          3316,
+          115,
+          9206,
+          9311,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 71.78,
+        "end": 72.15,
+        "note": 63
+      },
+      "overlap_start": 72.0,
+      "overlap_end": 72.15
+    },
+    {
+      "text_segment": {
+        "id": 16,
+        "seek": 5800,
+        "start": 72.0,
+        "end": 75.0,
+        "text": "もう俺は迷わない",
+        "tokens": [
+          51064,
+          16324,
+          37334,
+          3065,
+          3316,
+          115,
+          9206,
+          9311,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 72.26,
+        "end": 72.37,
+        "note": 61
+      },
+      "overlap_start": 72.26,
+      "overlap_end": 72.37
+    },
+    {
+      "text_segment": {
+        "id": 16,
+        "seek": 5800,
+        "start": 72.0,
+        "end": 75.0,
+        "text": "もう俺は迷わない",
+        "tokens": [
+          51064,
+          16324,
+          37334,
+          3065,
+          3316,
+          115,
+          9206,
+          9311,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 72.37,
+        "end": 72.48,
+        "note": 61
+      },
+      "overlap_start": 72.37,
+      "overlap_end": 72.48
+    },
+    {
+      "text_segment": {
+        "id": 16,
+        "seek": 5800,
+        "start": 72.0,
+        "end": 75.0,
+        "text": "もう俺は迷わない",
+        "tokens": [
+          51064,
+          16324,
+          37334,
+          3065,
+          3316,
+          115,
+          9206,
+          9311,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 73.89,
+        "end": 74.08,
+        "note": 63
+      },
+      "overlap_start": 73.89,
+      "overlap_end": 74.08
+    },
+    {
+      "text_segment": {
+        "id": 16,
+        "seek": 5800,
+        "start": 72.0,
+        "end": 75.0,
+        "text": "もう俺は迷わない",
+        "tokens": [
+          51064,
+          16324,
+          37334,
+          3065,
+          3316,
+          115,
+          9206,
+          9311,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 74.34,
+        "end": 74.51,
+        "note": 61
+      },
+      "overlap_start": 74.34,
+      "overlap_end": 74.51
+    },
+    {
+      "text_segment": {
+        "id": 16,
+        "seek": 5800,
+        "start": 72.0,
+        "end": 75.0,
+        "text": "もう俺は迷わない",
+        "tokens": [
+          51064,
+          16324,
+          37334,
+          3065,
+          3316,
+          115,
+          9206,
+          9311,
+          51214
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 74.58,
+        "end": 74.7,
+        "note": 61
+      },
+      "overlap_start": 74.58,
+      "overlap_end": 74.7
+    },
+    {
+      "text_segment": {
+        "id": 17,
+        "seek": 5800,
+        "start": 76.0,
+        "end": 78.0,
+        "text": "You make me feel good",
+        "tokens": [
+          51264,
+          3223,
+          652,
+          385,
+          841,
+          665,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 76.12,
+        "end": 76.44,
+        "note": 61
+      },
+      "overlap_start": 76.12,
+      "overlap_end": 76.44
+    },
+    {
+      "text_segment": {
+        "id": 17,
+        "seek": 5800,
+        "start": 76.0,
+        "end": 78.0,
+        "text": "You make me feel good",
+        "tokens": [
+          51264,
+          3223,
+          652,
+          385,
+          841,
+          665,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 77.7,
+        "end": 77.89,
+        "note": 65
+      },
+      "overlap_start": 77.7,
+      "overlap_end": 77.89
+    },
+    {
+      "text_segment": {
+        "id": 18,
+        "seek": 5800,
+        "start": 78.0,
+        "end": 81.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51364,
+          50,
+          3121,
+          901,
+          11867,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 78.14,
+        "end": 78.26,
+        "note": 64
+      },
+      "overlap_start": 78.14,
+      "overlap_end": 78.26
+    },
+    {
+      "text_segment": {
+        "id": 18,
+        "seek": 5800,
+        "start": 78.0,
+        "end": 81.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51364,
+          50,
+          3121,
+          901,
+          11867,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 78.26,
+        "end": 78.48,
+        "note": 63
+      },
+      "overlap_start": 78.26,
+      "overlap_end": 78.48
+    },
+    {
+      "text_segment": {
+        "id": 18,
+        "seek": 5800,
+        "start": 78.0,
+        "end": 81.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51364,
+          50,
+          3121,
+          901,
+          11867,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 79.55,
+        "end": 79.71000000000001,
+        "note": 65
+      },
+      "overlap_start": 79.55,
+      "overlap_end": 79.71000000000001
+    },
+    {
+      "text_segment": {
+        "id": 18,
+        "seek": 5800,
+        "start": 78.0,
+        "end": 81.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51364,
+          50,
+          3121,
+          901,
+          11867,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 79.71000000000001,
+        "end": 79.87,
+        "note": 64
+      },
+      "overlap_start": 79.71000000000001,
+      "overlap_end": 79.87
+    },
+    {
+      "text_segment": {
+        "id": 18,
+        "seek": 5800,
+        "start": 78.0,
+        "end": 81.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51364,
+          50,
+          3121,
+          901,
+          11867,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 79.88,
+        "end": 79.98,
+        "note": 64
+      },
+      "overlap_start": 79.88,
+      "overlap_end": 79.98
+    },
+    {
+      "text_segment": {
+        "id": 18,
+        "seek": 5800,
+        "start": 78.0,
+        "end": 81.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51364,
+          50,
+          3121,
+          901,
+          11867,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 80.09,
+        "end": 80.31,
+        "note": 63
+      },
+      "overlap_start": 80.09,
+      "overlap_end": 80.31
+    },
+    {
+      "text_segment": {
+        "id": 18,
+        "seek": 5800,
+        "start": 78.0,
+        "end": 81.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51364,
+          50,
+          3121,
+          901,
+          11867,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 80.47,
+        "end": 80.91,
+        "note": 61
+      },
+      "overlap_start": 80.47,
+      "overlap_end": 80.91
+    },
+    {
+      "text_segment": {
+        "id": 19,
+        "seek": 5800,
+        "start": 82.0,
+        "end": 85.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 82.89,
+        "end": 83.04,
+        "note": 58
+      },
+      "overlap_start": 82.89,
+      "overlap_end": 83.04
+    },
+    {
+      "text_segment": {
+        "id": 19,
+        "seek": 5800,
+        "start": 82.0,
+        "end": 85.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2939682314472814,
+        "compression_ratio": 1.126865671641791,
+        "no_speech_prob": 0.00950025673955679
+      },
+      "note_segment": {
+        "start": 83.24,
+        "end": 83.41,
+        "note": 57
+      },
+      "overlap_start": 83.24,
+      "overlap_end": 83.41
+    },
+    {
+      "text_segment": {
+        "id": 20,
+        "seek": 8500,
+        "start": 85.0,
+        "end": 88.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 85.23,
+        "end": 85.39,
+        "note": 65
+      },
+      "overlap_start": 85.23,
+      "overlap_end": 85.39
+    },
+    {
+      "text_segment": {
+        "id": 20,
+        "seek": 8500,
+        "start": 85.0,
+        "end": 88.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 85.39,
+        "end": 85.49,
+        "note": 65
+      },
+      "overlap_start": 85.39,
+      "overlap_end": 85.49
+    },
+    {
+      "text_segment": {
+        "id": 20,
+        "seek": 8500,
+        "start": 85.0,
+        "end": 88.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 85.58,
+        "end": 85.69,
+        "note": 65
+      },
+      "overlap_start": 85.58,
+      "overlap_end": 85.69
+    },
+    {
+      "text_segment": {
+        "id": 20,
+        "seek": 8500,
+        "start": 85.0,
+        "end": 88.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 85.72,
+        "end": 85.84,
+        "note": 65
+      },
+      "overlap_start": 85.72,
+      "overlap_end": 85.84
+    },
+    {
+      "text_segment": {
+        "id": 20,
+        "seek": 8500,
+        "start": 85.0,
+        "end": 88.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 87.13,
+        "end": 87.25,
+        "note": 64
+      },
+      "overlap_start": 87.13,
+      "overlap_end": 87.25
+    },
+    {
+      "text_segment": {
+        "id": 20,
+        "seek": 8500,
+        "start": 85.0,
+        "end": 88.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 87.31,
+        "end": 87.43,
+        "note": 65
+      },
+      "overlap_start": 87.31,
+      "overlap_end": 87.43
+    },
+    {
+      "text_segment": {
+        "id": 20,
+        "seek": 8500,
+        "start": 85.0,
+        "end": 88.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 87.61,
+        "end": 87.8,
+        "note": 65
+      },
+      "overlap_start": 87.61,
+      "overlap_end": 87.8
+    },
+    {
+      "text_segment": {
+        "id": 21,
+        "seek": 8500,
+        "start": 88.0,
+        "end": 91.0,
+        "text": "No.1",
+        "tokens": [
+          50514,
+          4540,
+          13,
+          16,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 88.04,
+        "end": 88.24,
+        "note": 65
+      },
+      "overlap_start": 88.04,
+      "overlap_end": 88.24
+    },
+    {
+      "text_segment": {
+        "id": 21,
+        "seek": 8500,
+        "start": 88.0,
+        "end": 91.0,
+        "text": "No.1",
+        "tokens": [
+          50514,
+          4540,
+          13,
+          16,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 88.32000000000001,
+        "end": 88.48,
+        "note": 63
+      },
+      "overlap_start": 88.32000000000001,
+      "overlap_end": 88.48
+    },
+    {
+      "text_segment": {
+        "id": 21,
+        "seek": 8500,
+        "start": 88.0,
+        "end": 91.0,
+        "text": "No.1",
+        "tokens": [
+          50514,
+          4540,
+          13,
+          16,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 89.26,
+        "end": 89.43,
+        "note": 65
+      },
+      "overlap_start": 89.26,
+      "overlap_end": 89.43
+    },
+    {
+      "text_segment": {
+        "id": 21,
+        "seek": 8500,
+        "start": 88.0,
+        "end": 91.0,
+        "text": "No.1",
+        "tokens": [
+          50514,
+          4540,
+          13,
+          16,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 89.43,
+        "end": 89.54,
+        "note": 65
+      },
+      "overlap_start": 89.43,
+      "overlap_end": 89.54
+    },
+    {
+      "text_segment": {
+        "id": 21,
+        "seek": 8500,
+        "start": 88.0,
+        "end": 91.0,
+        "text": "No.1",
+        "tokens": [
+          50514,
+          4540,
+          13,
+          16,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 89.54,
+        "end": 89.67,
+        "note": 65
+      },
+      "overlap_start": 89.54,
+      "overlap_end": 89.67
+    },
+    {
+      "text_segment": {
+        "id": 21,
+        "seek": 8500,
+        "start": 88.0,
+        "end": 91.0,
+        "text": "No.1",
+        "tokens": [
+          50514,
+          4540,
+          13,
+          16,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 89.78,
+        "end": 89.88,
+        "note": 65
+      },
+      "overlap_start": 89.78,
+      "overlap_end": 89.88
+    },
+    {
+      "text_segment": {
+        "id": 21,
+        "seek": 8500,
+        "start": 88.0,
+        "end": 91.0,
+        "text": "No.1",
+        "tokens": [
+          50514,
+          4540,
+          13,
+          16,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 89.98,
+        "end": 90.29,
+        "note": 58
+      },
+      "overlap_start": 89.98,
+      "overlap_end": 90.29
+    },
+    {
+      "text_segment": {
+        "id": 22,
+        "seek": 8500,
+        "start": 93.0,
+        "end": 95.0,
+        "text": "情熱の赤",
+        "tokens": [
+          50764,
+          10570,
+          32745,
+          2972,
+          5266,
+          97,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 93.36,
+        "end": 93.5,
+        "note": 61
+      },
+      "overlap_start": 93.36,
+      "overlap_end": 93.5
+    },
+    {
+      "text_segment": {
+        "id": 22,
+        "seek": 8500,
+        "start": 93.0,
+        "end": 95.0,
+        "text": "情熱の赤",
+        "tokens": [
+          50764,
+          10570,
+          32745,
+          2972,
+          5266,
+          97,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 93.5,
+        "end": 93.60000000000001,
+        "note": 61
+      },
+      "overlap_start": 93.5,
+      "overlap_end": 93.60000000000001
+    },
+    {
+      "text_segment": {
+        "id": 22,
+        "seek": 8500,
+        "start": 93.0,
+        "end": 95.0,
+        "text": "情熱の赤",
+        "tokens": [
+          50764,
+          10570,
+          32745,
+          2972,
+          5266,
+          97,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 93.60000000000001,
+        "end": 93.72,
+        "note": 61
+      },
+      "overlap_start": 93.60000000000001,
+      "overlap_end": 93.72
+    },
+    {
+      "text_segment": {
+        "id": 22,
+        "seek": 8500,
+        "start": 93.0,
+        "end": 95.0,
+        "text": "情熱の赤",
+        "tokens": [
+          50764,
+          10570,
+          32745,
+          2972,
+          5266,
+          97,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 93.86,
+        "end": 94.0,
+        "note": 61
+      },
+      "overlap_start": 93.86,
+      "overlap_end": 94.0
+    },
+    {
+      "text_segment": {
+        "id": 22,
+        "seek": 8500,
+        "start": 93.0,
+        "end": 95.0,
+        "text": "情熱の赤",
+        "tokens": [
+          50764,
+          10570,
+          32745,
+          2972,
+          5266,
+          97,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 94.0,
+        "end": 94.10000000000001,
+        "note": 60
+      },
+      "overlap_start": 94.0,
+      "overlap_end": 94.10000000000001
+    },
+    {
+      "text_segment": {
+        "id": 22,
+        "seek": 8500,
+        "start": 93.0,
+        "end": 95.0,
+        "text": "情熱の赤",
+        "tokens": [
+          50764,
+          10570,
+          32745,
+          2972,
+          5266,
+          97,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 94.47,
+        "end": 94.59,
+        "note": 61
+      },
+      "overlap_start": 94.47,
+      "overlap_end": 94.59
+    },
+    {
+      "text_segment": {
+        "id": 22,
+        "seek": 8500,
+        "start": 93.0,
+        "end": 95.0,
+        "text": "情熱の赤",
+        "tokens": [
+          50764,
+          10570,
+          32745,
+          2972,
+          5266,
+          97,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 94.74,
+        "end": 94.94,
+        "note": 63
+      },
+      "overlap_start": 94.74,
+      "overlap_end": 94.94
+    },
+    {
+      "text_segment": {
+        "id": 23,
+        "seek": 8500,
+        "start": 95.0,
+        "end": 97.0,
+        "text": "哀愁の青",
+        "tokens": [
+          50864,
+          3858,
+          222,
+          4820,
+          223,
+          2972,
+          37462,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 95.66,
+        "end": 95.8,
+        "note": 63
+      },
+      "overlap_start": 95.66,
+      "overlap_end": 95.8
+    },
+    {
+      "text_segment": {
+        "id": 23,
+        "seek": 8500,
+        "start": 95.0,
+        "end": 97.0,
+        "text": "哀愁の青",
+        "tokens": [
+          50864,
+          3858,
+          222,
+          4820,
+          223,
+          2972,
+          37462,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 95.91,
+        "end": 96.06,
+        "note": 64
+      },
+      "overlap_start": 95.91,
+      "overlap_end": 96.06
+    },
+    {
+      "text_segment": {
+        "id": 23,
+        "seek": 8500,
+        "start": 95.0,
+        "end": 97.0,
+        "text": "哀愁の青",
+        "tokens": [
+          50864,
+          3858,
+          222,
+          4820,
+          223,
+          2972,
+          37462,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 96.09,
+        "end": 96.44,
+        "note": 65
+      },
+      "overlap_start": 96.09,
+      "overlap_end": 96.44
+    },
+    {
+      "text_segment": {
+        "id": 23,
+        "seek": 8500,
+        "start": 95.0,
+        "end": 97.0,
+        "text": "哀愁の青",
+        "tokens": [
+          50864,
+          3858,
+          222,
+          4820,
+          223,
+          2972,
+          37462,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 96.44,
+        "end": 96.54,
+        "note": 65
+      },
+      "overlap_start": 96.44,
+      "overlap_end": 96.54
+    },
+    {
+      "text_segment": {
+        "id": 23,
+        "seek": 8500,
+        "start": 95.0,
+        "end": 97.0,
+        "text": "哀愁の青",
+        "tokens": [
+          50864,
+          3858,
+          222,
+          4820,
+          223,
+          2972,
+          37462,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 96.62,
+        "end": 96.77,
+        "note": 64
+      },
+      "overlap_start": 96.62,
+      "overlap_end": 96.77
+    },
+    {
+      "text_segment": {
+        "id": 24,
+        "seek": 8500,
+        "start": 97.0,
+        "end": 99.0,
+        "text": "今混ぜながら",
+        "tokens": [
+          50964,
+          6480,
+          48640,
+          20258,
+          3203,
+          5142,
+          5154,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 97.2,
+        "end": 97.33,
+        "note": 64
+      },
+      "overlap_start": 97.2,
+      "overlap_end": 97.33
+    },
+    {
+      "text_segment": {
+        "id": 24,
+        "seek": 8500,
+        "start": 97.0,
+        "end": 99.0,
+        "text": "今混ぜながら",
+        "tokens": [
+          50964,
+          6480,
+          48640,
+          20258,
+          3203,
+          5142,
+          5154,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 97.36,
+        "end": 97.47,
+        "note": 64
+      },
+      "overlap_start": 97.36,
+      "overlap_end": 97.47
+    },
+    {
+      "text_segment": {
+        "id": 24,
+        "seek": 8500,
+        "start": 97.0,
+        "end": 99.0,
+        "text": "今混ぜながら",
+        "tokens": [
+          50964,
+          6480,
+          48640,
+          20258,
+          3203,
+          5142,
+          5154,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 98.44,
+        "end": 98.54,
+        "note": 53
+      },
+      "overlap_start": 98.44,
+      "overlap_end": 98.54
+    },
+    {
+      "text_segment": {
+        "id": 24,
+        "seek": 8500,
+        "start": 97.0,
+        "end": 99.0,
+        "text": "今混ぜながら",
+        "tokens": [
+          50964,
+          6480,
+          48640,
+          20258,
+          3203,
+          5142,
+          5154,
+          51064
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 98.96000000000001,
+        "end": 99.08,
+        "note": 53
+      },
+      "overlap_start": 98.96000000000001,
+      "overlap_end": 99.0
+    },
+    {
+      "text_segment": {
+        "id": 25,
+        "seek": 8500,
+        "start": 99.0,
+        "end": 101.0,
+        "text": "夢の世界へ",
+        "tokens": [
+          51064,
+          35165,
+          2972,
+          24486,
+          29440,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 98.96000000000001,
+        "end": 99.08,
+        "note": 53
+      },
+      "overlap_start": 99.0,
+      "overlap_end": 99.08
+    },
+    {
+      "text_segment": {
+        "id": 25,
+        "seek": 8500,
+        "start": 99.0,
+        "end": 101.0,
+        "text": "夢の世界へ",
+        "tokens": [
+          51064,
+          35165,
+          2972,
+          24486,
+          29440,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 99.72,
+        "end": 99.83,
+        "note": 56
+      },
+      "overlap_start": 99.72,
+      "overlap_end": 99.83
+    },
+    {
+      "text_segment": {
+        "id": 25,
+        "seek": 8500,
+        "start": 99.0,
+        "end": 101.0,
+        "text": "夢の世界へ",
+        "tokens": [
+          51064,
+          35165,
+          2972,
+          24486,
+          29440,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 99.96000000000001,
+        "end": 100.10000000000001,
+        "note": 56
+      },
+      "overlap_start": 99.96000000000001,
+      "overlap_end": 100.10000000000001
+    },
+    {
+      "text_segment": {
+        "id": 26,
+        "seek": 8500,
+        "start": 101.0,
+        "end": 105.0,
+        "text": "あそこから先は",
+        "tokens": [
+          51164,
+          3590,
+          5040,
+          3503,
+          11046,
+          10108,
+          3065,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 101.47,
+        "end": 101.83,
+        "note": 61
+      },
+      "overlap_start": 101.47,
+      "overlap_end": 101.83
+    },
+    {
+      "text_segment": {
+        "id": 26,
+        "seek": 8500,
+        "start": 101.0,
+        "end": 105.0,
+        "text": "あそこから先は",
+        "tokens": [
+          51164,
+          3590,
+          5040,
+          3503,
+          11046,
+          10108,
+          3065,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 102.42,
+        "end": 102.68,
+        "note": 62
+      },
+      "overlap_start": 102.42,
+      "overlap_end": 102.68
+    },
+    {
+      "text_segment": {
+        "id": 26,
+        "seek": 8500,
+        "start": 101.0,
+        "end": 105.0,
+        "text": "あそこから先は",
+        "tokens": [
+          51164,
+          3590,
+          5040,
+          3503,
+          11046,
+          10108,
+          3065,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 102.7,
+        "end": 103.19,
+        "note": 63
+      },
+      "overlap_start": 102.7,
+      "overlap_end": 103.19
+    },
+    {
+      "text_segment": {
+        "id": 26,
+        "seek": 8500,
+        "start": 101.0,
+        "end": 105.0,
+        "text": "あそこから先は",
+        "tokens": [
+          51164,
+          3590,
+          5040,
+          3503,
+          11046,
+          10108,
+          3065,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 103.24000000000001,
+        "end": 103.48,
+        "note": 61
+      },
+      "overlap_start": 103.24000000000001,
+      "overlap_end": 103.48
+    },
+    {
+      "text_segment": {
+        "id": 26,
+        "seek": 8500,
+        "start": 101.0,
+        "end": 105.0,
+        "text": "あそこから先は",
+        "tokens": [
+          51164,
+          3590,
+          5040,
+          3503,
+          11046,
+          10108,
+          3065,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 103.76,
+        "end": 103.87,
+        "note": 60
+      },
+      "overlap_start": 103.76,
+      "overlap_end": 103.87
+    },
+    {
+      "text_segment": {
+        "id": 26,
+        "seek": 8500,
+        "start": 101.0,
+        "end": 105.0,
+        "text": "あそこから先は",
+        "tokens": [
+          51164,
+          3590,
+          5040,
+          3503,
+          11046,
+          10108,
+          3065,
+          51364
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 104.88,
+        "end": 105.01,
+        "note": 63
+      },
+      "overlap_start": 104.88,
+      "overlap_end": 105.0
+    },
+    {
+      "text_segment": {
+        "id": 27,
+        "seek": 8500,
+        "start": 107.0,
+        "end": 109.0,
+        "text": "You make me feel good",
+        "tokens": [
+          51464,
+          3223,
+          652,
+          385,
+          841,
+          665,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 107.05,
+        "end": 107.34,
+        "note": 61
+      },
+      "overlap_start": 107.05,
+      "overlap_end": 107.34
+    },
+    {
+      "text_segment": {
+        "id": 27,
+        "seek": 8500,
+        "start": 107.0,
+        "end": 109.0,
+        "text": "You make me feel good",
+        "tokens": [
+          51464,
+          3223,
+          652,
+          385,
+          841,
+          665,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 107.78,
+        "end": 107.92,
+        "note": 62
+      },
+      "overlap_start": 107.78,
+      "overlap_end": 107.92
+    },
+    {
+      "text_segment": {
+        "id": 27,
+        "seek": 8500,
+        "start": 107.0,
+        "end": 109.0,
+        "text": "You make me feel good",
+        "tokens": [
+          51464,
+          3223,
+          652,
+          385,
+          841,
+          665,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 108.23,
+        "end": 108.36,
+        "note": 74
+      },
+      "overlap_start": 108.23,
+      "overlap_end": 108.36
+    },
+    {
+      "text_segment": {
+        "id": 27,
+        "seek": 8500,
+        "start": 107.0,
+        "end": 109.0,
+        "text": "You make me feel good",
+        "tokens": [
+          51464,
+          3223,
+          652,
+          385,
+          841,
+          665,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 108.69,
+        "end": 108.84,
+        "note": 65
+      },
+      "overlap_start": 108.69,
+      "overlap_end": 108.84
+    },
+    {
+      "text_segment": {
+        "id": 27,
+        "seek": 8500,
+        "start": 107.0,
+        "end": 109.0,
+        "text": "You make me feel good",
+        "tokens": [
+          51464,
+          3223,
+          652,
+          385,
+          841,
+          665,
+          51564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 108.87,
+        "end": 108.97,
+        "note": 65
+      },
+      "overlap_start": 108.87,
+      "overlap_end": 108.97
+    },
+    {
+      "text_segment": {
+        "id": 28,
+        "seek": 8500,
+        "start": 109.0,
+        "end": 112.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 109.05,
+        "end": 109.24000000000001,
+        "note": 64
+      },
+      "overlap_start": 109.05,
+      "overlap_end": 109.24000000000001
+    },
+    {
+      "text_segment": {
+        "id": 28,
+        "seek": 8500,
+        "start": 109.0,
+        "end": 112.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 109.24000000000001,
+        "end": 109.48,
+        "note": 63
+      },
+      "overlap_start": 109.24000000000001,
+      "overlap_end": 109.48
+    },
+    {
+      "text_segment": {
+        "id": 28,
+        "seek": 8500,
+        "start": 109.0,
+        "end": 112.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 110.29,
+        "end": 110.39,
+        "note": 65
+      },
+      "overlap_start": 110.29,
+      "overlap_end": 110.39
+    },
+    {
+      "text_segment": {
+        "id": 28,
+        "seek": 8500,
+        "start": 109.0,
+        "end": 112.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 110.39,
+        "end": 110.60000000000001,
+        "note": 65
+      },
+      "overlap_start": 110.39,
+      "overlap_end": 110.60000000000001
+    },
+    {
+      "text_segment": {
+        "id": 28,
+        "seek": 8500,
+        "start": 109.0,
+        "end": 112.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 110.62,
+        "end": 110.74000000000001,
+        "note": 63
+      },
+      "overlap_start": 110.62,
+      "overlap_end": 110.74000000000001
+    },
+    {
+      "text_segment": {
+        "id": 28,
+        "seek": 8500,
+        "start": 109.0,
+        "end": 112.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 110.79,
+        "end": 111.14,
+        "note": 63
+      },
+      "overlap_start": 110.79,
+      "overlap_end": 111.14
+    },
+    {
+      "text_segment": {
+        "id": 28,
+        "seek": 8500,
+        "start": 109.0,
+        "end": 112.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 111.14,
+        "end": 111.24000000000001,
+        "note": 63
+      },
+      "overlap_start": 111.14,
+      "overlap_end": 111.24000000000001
+    },
+    {
+      "text_segment": {
+        "id": 28,
+        "seek": 8500,
+        "start": 109.0,
+        "end": 112.0,
+        "text": "Sexual violent",
+        "tokens": [
+          51564,
+          50,
+          3121,
+          901,
+          11867,
+          51714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19388883076016866,
+        "compression_ratio": 1.0155038759689923,
+        "no_speech_prob": 0.04980897903442383
+      },
+      "note_segment": {
+        "start": 111.41,
+        "end": 111.83,
+        "note": 61
+      },
+      "overlap_start": 111.41,
+      "overlap_end": 111.83
+    },
+    {
+      "text_segment": {
+        "id": 29,
+        "seek": 11200,
+        "start": 112.0,
+        "end": 115.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 112.0,
+        "end": 112.11,
+        "note": 61
+      },
+      "overlap_start": 112.0,
+      "overlap_end": 112.11
+    },
+    {
+      "text_segment": {
+        "id": 29,
+        "seek": 11200,
+        "start": 112.0,
+        "end": 115.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 112.27,
+        "end": 112.48,
+        "note": 58
+      },
+      "overlap_start": 112.27,
+      "overlap_end": 112.48
+    },
+    {
+      "text_segment": {
+        "id": 29,
+        "seek": 11200,
+        "start": 112.0,
+        "end": 115.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 112.48,
+        "end": 112.58,
+        "note": 58
+      },
+      "overlap_start": 112.48,
+      "overlap_end": 112.58
+    },
+    {
+      "text_segment": {
+        "id": 29,
+        "seek": 11200,
+        "start": 112.0,
+        "end": 115.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 113.49000000000001,
+        "end": 113.61,
+        "note": 59
+      },
+      "overlap_start": 113.49000000000001,
+      "overlap_end": 113.61
+    },
+    {
+      "text_segment": {
+        "id": 29,
+        "seek": 11200,
+        "start": 112.0,
+        "end": 115.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 114.60000000000001,
+        "end": 114.71000000000001,
+        "note": 65
+      },
+      "overlap_start": 114.60000000000001,
+      "overlap_end": 114.71000000000001
+    },
+    {
+      "text_segment": {
+        "id": 29,
+        "seek": 11200,
+        "start": 112.0,
+        "end": 115.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50364,
+          50,
+          3121,
+          901,
+          11867,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 114.72,
+        "end": 114.85000000000001,
+        "note": 64
+      },
+      "overlap_start": 114.72,
+      "overlap_end": 114.85000000000001
+    },
+    {
+      "text_segment": {
+        "id": 30,
+        "seek": 11200,
+        "start": 116.0,
+        "end": 119.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50564,
+          50,
+          3121,
+          901,
+          11867,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 117.22,
+        "end": 117.37,
+        "note": 60
+      },
+      "overlap_start": 117.22,
+      "overlap_end": 117.37
+    },
+    {
+      "text_segment": {
+        "id": 30,
+        "seek": 11200,
+        "start": 116.0,
+        "end": 119.0,
+        "text": "Sexual violent",
+        "tokens": [
+          50564,
+          50,
+          3121,
+          901,
+          11867,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 118.29,
+        "end": 118.43,
+        "note": 58
+      },
+      "overlap_start": 118.29,
+      "overlap_end": 118.43
+    },
+    {
+      "text_segment": {
+        "id": 31,
+        "seek": 11200,
+        "start": 119.0,
+        "end": 121.0,
+        "text": "No.1",
+        "tokens": [
+          50714,
+          4540,
+          13,
+          16,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 120.49000000000001,
+        "end": 120.75,
+        "note": 63
+      },
+      "overlap_start": 120.49000000000001,
+      "overlap_end": 120.75
+    },
+    {
+      "text_segment": {
+        "id": 31,
+        "seek": 11200,
+        "start": 119.0,
+        "end": 121.0,
+        "text": "No.1",
+        "tokens": [
+          50714,
+          4540,
+          13,
+          16,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30423742294311523,
+        "compression_ratio": 1.069767441860465,
+        "no_speech_prob": 0.011637035757303238
+      },
+      "note_segment": {
+        "start": 120.88,
+        "end": 121.04,
+        "note": 63
+      },
+      "overlap_start": 120.88,
+      "overlap_end": 121.0
+    }
+  ],
+  "metadata": {
+    "total_segments": 160,
+    "format_version": "1.0"
+  }
+}

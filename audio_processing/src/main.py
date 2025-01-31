@@ -16,7 +16,7 @@ import argparse
 from typing import Optional
 
 from audio2midi.audio_to_text import transcribe_audio, AudioTranscriptionError
-from audio2midi.pitch_extraction import extract_pitch_librosa
+from audio2midi.pitch_extraction import extract_pitch_crepe
 from audio2midi.note_utils import midi_notes_to_intervals, match_segments_and_notes
 from audio2midi.generate_midi_with_lyrics import export_segments
 
@@ -105,22 +105,24 @@ def process_audio(args: argparse.Namespace) -> None:
         
         # 2. ピッチ抽出
         print("ピッチ抽出を実行中...")
-        midi_notes, voiced_flags, sr = extract_pitch_librosa(
+        midi_notes, confidence, time, sr = extract_pitch_crepe(
             args.audio_path,
-            fmin=args.min_pitch,
-            fmax=args.max_pitch,
-            frame_length=args.frame_length,
-            hop_length=args.hop_length
+            sr_desired=16000,  # CREPEは16kHzを推奨
+            confidence_threshold=0.5,
+            model='full',
+            step_size=10,
+            top_db=args.top_db
         )
         
         # 3. ノートインターバルの生成
         print("ノートインターバルを生成中...")
         note_intervals = midi_notes_to_intervals(
             midi_notes,
-            voiced_flags,
+            confidence,
             sr,
-            hop_length=args.hop_length,
-            min_duration=args.min_duration
+            hop_length=int(sr * (10 / 1000.0)),  # CREPEのstep_size=10msに対応（10ms * サンプリングレート）
+            min_duration=args.min_duration,
+            confidence_threshold=0.5
         )
         
         # 4. 歌詞とノートのマッチング

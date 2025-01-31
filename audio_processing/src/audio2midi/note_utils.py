@@ -10,20 +10,22 @@ import numpy as np
 
 def midi_notes_to_intervals(
     midi_notes: np.ndarray,
-    voiced_flags: np.ndarray,
+    confidence: np.ndarray,
     sr: int,
-    hop_length: int = 512,  # デフォルトのhop_length
-    min_duration: float = 0.1
+    hop_length: int = 160,  # CREPEのstep_size=10msに対応（10ms * 16000Hz = 160サンプル）
+    min_duration: float = 0.1,
+    confidence_threshold: float = 0.5  # 信頼度の閾値
 ) -> List[Tuple[float, float, float]]:
     """
     連続したMIDIノートをインターバル（開始時間、終了時間、ノート）に変換します。
 
     Args:
         midi_notes: MIDIノート番号の配列
-        voiced_flags: 有声フレームを示すブール配列
+        confidence: CREPEによる信頼度スコアの配列
         sr: サンプリングレート
         hop_length: フレーム間のホップ長（サンプル数）
         min_duration: 最小ノート長（秒）
+        confidence_threshold: 信頼度の閾値
 
     Returns:
         List of (start_time, end_time, note)
@@ -31,18 +33,19 @@ def midi_notes_to_intervals(
     print(f"\nノートインターバル変換デバッグ情報:")
     print(f"入力データ情報:")
     print(f"- MIDIノート配列長: {len(midi_notes)}")
-    print(f"- 有声フラグ配列長: {len(voiced_flags)}")
+    print(f"- 信頼度配列長: {len(confidence)}")
     print(f"- サンプリングレート: {sr}Hz")
     print(f"- ホップ長: {hop_length}サンプル")
     print(f"- 最小ノート長: {min_duration}秒")
+    print(f"- 信頼度閾値: {confidence_threshold}")
 
     intervals = []
     current_note = None
     start_frame = None
     frame_duration = hop_length / sr  # 1フレームあたりの秒数
 
-    for i, (note, is_voiced) in enumerate(zip(midi_notes, voiced_flags)):
-        if is_voiced and not np.isnan(note):
+    for i, (note, conf) in enumerate(zip(midi_notes, confidence)):
+        if conf >= confidence_threshold and not np.isnan(note):
             if current_note is None:
                 current_note = note
                 start_frame = i
@@ -175,5 +178,126 @@ def convert_pitch_to_note(pitch_value):
     """
     # 実際の変換ロジックをここに書く
     pass
+
+def merge_short_notes(
+    notes: List[Tuple[float, float, float]],
+    min_duration: float = 0.05,
+    cent_tolerance: float = 100.0
+) -> List[Tuple[float, float, float]]:
+    """
+    短いノートを前後のノートとマージまたは削除します。
+
+    Args:
+        notes: [(start_time, end_time, midi_note), ...] の形式のノートリスト
+        min_duration: 最小ノート長（秒）
+        cent_tolerance: 同一ノートとみなすセント差の閾値
+
+    Returns:
+        マージ処理後のノートリスト
+    """
+    if not notes:
+        return []
+
+    # ノートを時間順にソート
+    sorted_notes = sorted(notes, key=lambda x: x[0])
+    merged_notes = []
+    i = 0
+
+    while i < len(sorted_notes):
+        start, end, note = sorted_notes[i]
+        duration = end - start
+
+        if duration < min_duration:
+            # 前後のノートを確認
+            prev_note = merged_notes[-1] if merged_notes else None
+            next_note = sorted_notes[i + 1] if i + 1 < len(sorted_notes) else None
+
+            merged = False
+            # 前のノートとのマージを試みる
+            if prev_note:
+                prev_start, prev_end, prev_note_val = prev_note
+                if abs(note - prev_note_val) <= cent_tolerance / 100.0:
+                    # 前のノートとマージ
+                    merged_notes[-1] = (prev_start, end, (prev_note_val * (prev_end - prev_start) + note * duration) / (prev_end - prev_start + duration))
+                    merged = True
+
+            # 次のノートとのマージを試みる
+            elif next_note and not merged:
+                next_start, next_end, next_note_val = next_note
+                if abs(note - next_note_val) <= cent_tolerance / 100.0:
+                    # 次のノートとマージ
+                    sorted_notes[i + 1] = (start, next_end, (note * duration + next_note_val * (next_end - next_start)) / (duration + next_end - next_start))
+                    merged = True
+                    i += 1
+                    continue
+
+            # マージできない場合は短いノートを無視
+            if not merged:
+                i += 1
+                continue
+        else:
+            merged_notes.append((start, end, note))
+        i += 1
+
+    return merged_notes
+
+def smooth_vibrato(
+    notes: List[Tuple[float, float, float]],
+    time_window: float = 0.2,
+    cent_tolerance: float = 200.0
+) -> List[Tuple[float, float, float]]:
+    """
+    ビブラートやしゃくりと思われる短い音程変化を平滑化します。
+
+    Args:
+        notes: [(start_time, end_time, midi_note), ...] の形式のノートリスト
+        time_window: 検討する時間窓（秒）
+        cent_tolerance: ビブラートとみなす音程差の閾値（セント）
+
+    Returns:
+        平滑化されたノートリスト
+    """
+    if not notes:
+        return []
+
+    # ノートを時間順にソート
+    sorted_notes = sorted(notes, key=lambda x: x[0])
+    smoothed_notes = []
+    i = 0
+
+    while i < len(sorted_notes):
+        current_note = sorted_notes[i]
+        current_start, current_end, current_pitch = current_note
+
+        # 時間窓内のノートを収集
+        window_notes = []
+        j = i
+        window_end = current_start + time_window
+
+        while j < len(sorted_notes) and sorted_notes[j][0] < window_end:
+            window_notes.append(sorted_notes[j])
+            j += 1
+
+        if len(window_notes) > 1:
+            # 窓内のノートの音程変化を確認
+            pitches = [n[2] for n in window_notes]
+            pitch_range = max(pitches) - min(pitches)
+
+            if pitch_range * 100 <= cent_tolerance:  # セント単位に変換して比較
+                # ビブラートとみなしてマージ
+                merged_start = window_notes[0][0]
+                merged_end = window_notes[-1][1]
+                # 重み付き平均で新しい音程を計算
+                total_duration = sum(n[1] - n[0] for n in window_notes)
+                weighted_pitch = sum((n[1] - n[0]) * n[2] for n in window_notes) / total_duration
+                
+                smoothed_notes.append((merged_start, merged_end, weighted_pitch))
+                i = j
+                continue
+
+        smoothed_notes.append(current_note)
+        i += 1
+
+    return smoothed_notes
 
 # 他に重複定義や未使用関数があればコメントアウトまたは削除

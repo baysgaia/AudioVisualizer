@@ -29,10 +29,10 @@ class NoteEvent:
 def extract_pitch_crepe(
     wav_path: str,
     sr_desired: int = 16000,  # CREPEは16kHzを推奨
-    confidence_threshold: float = 0.5,  # 信頼度の閾値
+    confidence_threshold: float = 0.6,  # 信頼度の閾値
     model: str = 'full',  # CREPEモデルサイズ
-    step_size: int = 10,  # 分析フレームのステップサイズ（ms）
-    top_db: float = 40.0  # 無音判定の閾値
+    step_size: int = 5,  # 分析フレームのステップサイズ（ms）
+    top_db: float = 35.0  # 無音判定の閾値
 ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, int]:
     """
     CREPEを用いて音声ファイルの基本周波数(F0)を推定し、
@@ -45,13 +45,13 @@ def extract_pitch_crepe(
     sr_desired : int, optional
         希望するサンプリングレート（デフォルト: 16000 Hz）
     confidence_threshold : float, optional
-        信頼度の閾値（デフォルト: 0.5）
+        信頼度の閾値（デフォルト: 0.6）
     model : str, optional
         CREPEモデルサイズ ('tiny', 'small', 'medium', 'large', 'full')
     step_size : int, optional
-        分析フレームのステップサイズ（ms）（デフォルト: 10）
+        分析フレームのステップサイズ（ms）（デフォルト: 5）
     top_db : float, optional
-        無音判定の閾値（デフォルト: 40.0 dB）
+        無音判定の閾値（デフォルト: 35.0 dB）
 
     Returns
     -------
@@ -92,7 +92,7 @@ def extract_pitch_crepe(
     time, frequency, confidence, _ = crepe.predict(
         audio_signal_trimmed,
         sr_used,
-        model=model,
+        model_capacity=model,
         step_size=step_size,
         viterbi=True,
         verbose=1
@@ -121,10 +121,12 @@ def cluster_notes_with_confidence(
     time_axis: np.ndarray,
     midi_values: np.ndarray,
     confidence_values: np.ndarray,
-    cent_tolerance: float = 50.0,  # より厳密な半音の幅
-    min_note_length: float = 0.05,  # 最小ノート長
-    smooth_window: int = 3,  # 平滑化窓幅
-    confidence_threshold: float = 0.5  # 信頼度閾値
+    cent_tolerance: float = 40.0,  # より厳密な半音の幅
+    min_note_length: float = 0.1,  # 最小ノート長
+    smooth_window: int = 5,  # 平滑化窓幅
+    confidence_threshold: float = 0.6,  # 信頼度閾値
+    vibrato_window: float = 0.2,  # ビブラート検出の時間窓
+    vibrato_tolerance: float = 200.0  # ビブラート検出の音程差閾値
 ) -> List[NoteEvent]:
     """
     CREPEの信頼度を考慮してノートイベントを生成します。
@@ -138,13 +140,17 @@ def cluster_notes_with_confidence(
     confidence_values : np.ndarray
         信頼度値の配列
     cent_tolerance : float, optional
-        同一ノートとみなすセント差の閾値（デフォルト: 50セント = 半音の半分）
+        同一ノートとみなすセント差の閾値（デフォルト: 40セント = 半音の半分）
     min_note_length : float, optional
-        最小ノート長（秒）（デフォルト: 0.05秒）
+        最小ノート長（秒）（デフォルト: 0.1秒）
     smooth_window : int, optional
-        平滑化の窓幅（デフォルト: 3フレーム）
+        平滑化の窓幅（デフォルト: 5フレーム）
     confidence_threshold : float, optional
-        信頼度の閾値（デフォルト: 0.5）
+        信頼度の閾値（デフォルト: 0.6）
+    vibrato_window : float, optional
+        ビブラート検出の時間窓（秒）（デフォルト: 0.2秒）
+    vibrato_tolerance : float, optional
+        ビブラート検出の音程差閾値（セント）（デフォルト: 200セント）
 
     Returns
     -------
@@ -166,10 +172,11 @@ def cluster_notes_with_confidence(
     else:
         print("Warning: No valid pitch values found")
         return []
-    
+
     # メディアンフィルタによる平滑化
     midi_smooth = median_filter(midi_values_filled, size=smooth_window)
     
+    # 初期ノートイベントの生成
     note_events: List[NoteEvent] = []
     current_note: Optional[float] = None
     note_start_time: Optional[float] = None
@@ -223,7 +230,7 @@ def cluster_notes_with_confidence(
                 current_note = (current_note * current_frame_count + note_val) / (current_frame_count + 1)
                 current_confidence_sum += conf
                 current_frame_count += 1
-    
+
     # 最後のノートの処理
     if current_note is not None:
         duration = time_axis[-1] - note_start_time
@@ -237,13 +244,35 @@ def cluster_notes_with_confidence(
                     confidence=avg_confidence
                 )
             )
+
+    # ノートイベントをタプルのリストに変換
+    note_tuples = [(n.start_time, n.end_time, n.midi_note) for n in note_events]
+
+    # 短いノートのマージと削除
+    from .note_utils import merge_short_notes, smooth_vibrato
+    merged_notes = merge_short_notes(note_tuples, min_note_length, cent_tolerance)
     
+    # ビブラートの平滑化
+    smoothed_notes = smooth_vibrato(merged_notes, vibrato_window, vibrato_tolerance)
+    
+    # 最終的なノートイベントの生成
+    final_note_events = []
+    for start, end, note in smoothed_notes:
+        final_note_events.append(
+            NoteEvent(
+                start_time=start,
+                end_time=end,
+                midi_note=note,
+                confidence=1.0  # マージ後は信頼度を1.0とする
+            )
+        )
+
     # デバッグ情報の出力
-    print(f"Generated {len(note_events)} note events")
-    if note_events:
-        print(f"Average confidence: {np.mean([n.confidence for n in note_events]):.3f}")
+    print(f"Generated {len(final_note_events)} note events")
+    if final_note_events:
+        print(f"Average confidence: {np.mean([n.confidence for n in final_note_events]):.3f}")
     
-    return note_events
+    return final_note_events
 
 
 def extract_melody(

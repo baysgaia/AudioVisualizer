@@ -13,8 +13,8 @@ pydub>=0.25.1  # 音声前処理用
 # MIDI操作ライブラリ
 mido
 
-# F0推定ライブラリ (必要に応じて)
-crepe
+# F0推定ライブラリ
+crepe>=0.0.12  # 安定版を指定
 
 # ffmpeg-pythonを使用するためには、システムに ffmpeg がインストールされている必要があります。
 ffmpeg-python

@@ -15,7 +15,9 @@ def create_midi_with_lyrics(
     matched_segments: List[Dict],
     output_file: str,
     tempo: int = 120,
-    velocity: int = 100
+    velocity: int = 100,
+    min_duration: float = 0.1,  # 最小ノート長を追加
+    text_offset: float = 0.01   # テキストイベントのオフセットを追加
 ) -> None:
     """
     マッチングされたセグメントからMIDIファイルを生成します。
@@ -25,28 +27,63 @@ def create_midi_with_lyrics(
         output_file: 出力MIDIファイルパス
         tempo: テンポ（BPM）
         velocity: ノートのベロシティ（0-127）
+        min_duration: 最小ノート長（秒）
+        text_offset: テキストイベントの時間オフセット（秒）
     """
-    midi = MIDIFile(1)  # 1トラック
-    track = 0
+    midi = MIDIFile(2)  # 2トラックに変更（ノート用とテキスト用）
+    note_track = 0
+    text_track = 1
     time = 0
-    midi.addTrackName(track, time, "Vocal Track")
-    midi.addTempo(track, time, tempo)
+
+    midi.addTrackName(note_track, time, "Vocal Notes")
+    midi.addTrackName(text_track, time, "Lyrics")
+    midi.addTempo(note_track, time, tempo)
+    midi.addTempo(text_track, time, tempo)
     
-    for segment in matched_segments:
+    # デバッグ情報の出力
+    print(f"Processing {len(matched_segments)} matched segments")
+    
+    # セグメントを時間でソート
+    sorted_segments = sorted(matched_segments, key=lambda x: x["overlap_start"])
+    
+    for i, segment in enumerate(sorted_segments):
         note = segment["note_segment"]["note"]
         start = segment["overlap_start"]
         end = segment["overlap_end"]
         duration = end - start
         text = segment["text_segment"]["text"]
         
-        # ノートイベントを追加
-        midi.addNote(track, 0, int(note), start, duration, velocity)
+        # バリデーションチェックを追加
+        if start < 0 or end < 0:
+            print(f"Warning: Negative time values at segment {i} - start: {start}, end: {end}")
+            continue
+            
+        if duration < min_duration:
+            print(f"Warning: Duration {duration}s is less than minimum {min_duration}s at segment {i}")
+            continue
+            
+        if not (0 <= int(note) <= 127):
+            print(f"Warning: Invalid MIDI note number {note} at segment {i}")
+            continue
         
-        # 歌詞イベントを追加
-        midi.addLyric(track, start, text)
-    
-    with open(output_file, "wb") as f:
-        midi.writeFile(f)
+        # ノートイベントを追加（ノートトラックに）
+        try:
+            midi.addNote(note_track, 0, int(note), start, duration, velocity)
+            # テキストイベントを別トラックに追加（わずかな時間オフセットを付ける）
+            midi.addText(text_track, start + text_offset, text)
+            print(f"Added note {int(note)} at {start}s with duration {duration}s and text '{text}'")
+        except Exception as e:
+            print(f"Error adding note at segment {i}: {e}")
+            print(f"Segment details: note={note}, start={start}, duration={duration}, text='{text}'")
+            continue
+
+    # MIDIファイルの書き出し
+    try:
+        with open(output_file, "wb") as f:
+            midi.writeFile(f)
+        print(f"Successfully wrote MIDI file to {output_file}")
+    except Exception as e:
+        print(f"Error writing MIDI file: {e}")
 
 def export_to_json(
     matched_segments: List[Dict],

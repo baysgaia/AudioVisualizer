@@ -13,8 +13,7 @@
 
 import sys
 import argparse
-from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional
 
 from audio2midi.audio_to_text import transcribe_audio, AudioTranscriptionError
 from audio2midi.pitch_extraction import extract_pitch_librosa
@@ -58,7 +57,13 @@ def parse_args() -> argparse.Namespace:
     # ピッチ抽出オプション
     parser.add_argument("--min-pitch", type=str, default="C2", help="最低音高 (例: C2)")
     parser.add_argument("--max-pitch", type=str, default="C6", help="最高音高 (例: C6)")
+    parser.add_argument("--frame-length", type=int, default=2048, help="フレーム長（サンプル数）")
+    parser.add_argument("--hop-length", type=int, default=512, help="ホップ長（サンプル数）")
     parser.add_argument("--min-duration", type=float, default=0.1, help="最小ノート長（秒）")
+    parser.add_argument("--cent-tolerance", type=float, default=50.0, help="同一ノートとみなすセント差")
+    parser.add_argument("--smooth-window", type=int, default=3, help="平滑化の窓幅（フレーム数）")
+    parser.add_argument("--smoothing-weight", type=float, default=0.8, help="指数移動平均の重み（0-1）")
+    parser.add_argument("--top-db", type=float, default=30.0, help="無音区間検出のdB閾値")
     
     # 出力オプション
     parser.add_argument("--output-format", type=str, default="midi",
@@ -103,7 +108,9 @@ def process_audio(args: argparse.Namespace) -> None:
         midi_notes, voiced_flags, sr = extract_pitch_librosa(
             args.audio_path,
             fmin=args.min_pitch,
-            fmax=args.max_pitch
+            fmax=args.max_pitch,
+            frame_length=args.frame_length,
+            hop_length=args.hop_length
         )
         
         # 3. ノートインターバルの生成
@@ -112,6 +119,7 @@ def process_audio(args: argparse.Namespace) -> None:
             midi_notes,
             voiced_flags,
             sr,
+            hop_length=args.hop_length,
             min_duration=args.min_duration
         )
         
